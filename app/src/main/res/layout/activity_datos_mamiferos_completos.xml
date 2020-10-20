@@ -61,15 +61,13 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.238"
-                android:layout_gravity="center">
+                app:layout_constraintVertical_bias="0.238">
 
                 <ImageView
                     android:id="@+id/imgAnimal"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_weight="1"
-                    android:layout_marginLeft="10dp"/>
+                    android:layout_weight="1"/>
 
                 <ImageView
                     android:id="@+id/imgAudioM"
@@ -83,9 +81,10 @@
                 <ImageView
                     android:id="@+id/imgContinenteM"
                     android:layout_width="100dp"
-                    android:layout_height="50dp"
+                    android:layout_height="100dp"
                     android:layout_weight="1"
-                    android:layout_marginLeft="20dp"/>
+                    android:layout_marginLeft="20dp"
+                    android:adjustViewBounds="true"/>
 
             </LinearLayout>
 

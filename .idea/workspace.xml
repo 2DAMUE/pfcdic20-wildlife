@@ -21,805 +21,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d573962-72c3-46f1-9547-816fc8e82c69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileContent/fileContent.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_1_1_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_commit451_PhotoView_1_2_4_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Animal Quiz.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/animalquiz/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/AnfibiosActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/AvesActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/DatosAnfibiosCompletosActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/DatosAvesCompletosActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/DatosMamiferosCompletosActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/DatosPecesCompletosActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/DatosReptilesCompletosActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/MamiferosActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/PecesActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/PrincipalActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/ReptilesActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/AleatorioQuizActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/PrincipalQuizActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/Quiz1Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/activityQuiz3/Pregunta1Quiz3Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/activityQuiz3/Pregunta2Quiz3Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/activityQuiz3/PrincipalQuiz3Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/quiz2Preguntas/Pregunta1Quiz2Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/quiz2Preguntas/Pregunta2Quiz2Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/quiz2Preguntas/Pregunta3Quiz2Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/quiz2Preguntas/Pregunta4Quiz2Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/quiz2Preguntas/Pregunta5Quiz2Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/quiz2Preguntas/ResultadosActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/adapters/AnfibiosAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/adapters/AvesAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/adapters/MamiferoAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/adapters/PecesAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/adapters/ReptilesAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/fragments/MantenimientoFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/javabean/Anfibios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/javabean/Aves.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/javabean/DatosAnfibios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/javabean/DatosAves.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/javabean/DatosMamiferos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/javabean/DatosPeces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/javabean/DatosReptiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/javabean/Mamiferos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/javabean/Peces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/javabean/Reptiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/pulse_animation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/bordes1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/africa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/agachadizaamericana.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aguilaimperial.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/anfibios.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/asia.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/01.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/1174699.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/14219225.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/1470657753234558" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/16140397.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/18676.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/18831218.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/1px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/2.1f492de048ed5daf4f68.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/2199844.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/240_F_167369712_JH3SW6AGc6WDj0xWfIUy2FQ30HEJrXG1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/240_F_171784252_PtDvaiuGVPqkuTa3YirUURF074YXypDD.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/240_F_178602714_FKQGR63biTl6kFwRhxivlY9VOdlUFVsK.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/240_F_194409525_rfZ9HK1rNztaMhr2YgH4PF6yIDJgEM5w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/240_F_194547431_nB42fJxlgu7c5yw5J62r2DlPaKCgGYru.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/240_F_197040991_wnOXwmHqyyYn1B7rmgBzlsjZl8ntXxUJ.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/240_F_228952955_oxo3tnNC0GEg7nX79JMr41Ajsl6MtEwY.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/240_F_230698233_QRNbwvm6zDgGH6neWJ0wuyed49XaYigo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/240_F_238079182_n1qTlN8XoAbi1iB7wxR0sND4XEjRW9YA.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/240_F_250032245_HO4zJevI7Vpxg3NajOJtIBQdJMx9MwiT.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/240_F_252807133_4NM1NviYWd99j88p8rCjM1uuv00yHNlC.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/240_F_252839747_dReM2aZbZyDYVzZLaBFSV9VjrrGQtuqM.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/240_F_262895694_ZTEujfCykcG2vJoA0UVgZIPK1dTMlc9B.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/240_F_283824916_EELZBJpjdoTB96yjTqlmslvXceMEJyfN.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/240_F_296446130_DfLPvvdIlHlzHA3d6J16gfflEvzpWjta.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/240_F_29884412_dXcitCOvWDSDVfsY92lj63JEgnKHTNFw.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/240_F_30044999_UMBWbEGCm7PNFPj4FLUbVHqlSdmTwqHH.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/240_F_314308894_fbLFT9VnsFU7ab8qTNcovW3I1MEnqL7L.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/240_F_329534162_VtQ1Qoi7pKXpefdFD21td06MsZalhS12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/240_F_37401684_3uE3YZGhdUAU9OIAPTMe3UJNcyclhZma.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/240_F_43259675_kj61BpPW4AJTgbVhqoeW6BzTNxS86cKh.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/240_F_45274206_MvvoXum1EbrSmpltKw9VBU0o2myMVBzh.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/240_F_46195225_AUNfmx6mbWwHQA0ZBO9b3nTQyaNkAirB.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/240_F_47399636_WtqA7dxhmnXhmVoj1NRgIXv09jnazXAM.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/240_F_57159573_awtyIj3Fd00SHum07NvqESw3JiTviVn9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/240_F_7126880_aSRJEOthb5AFAdaALyajgRyE2qIaDsBe.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/240_F_7321838_LthgCj47due1wXbOlVuMlxl6nJsntZc5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/4082718.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/4221997.js(1).descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/4221997.js(2).descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/4221997.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/6662876.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/743995.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/970x250_ES_yellow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/9958596.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/activityi.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/adobestock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/adulto-ruddy-vuelvepiedra-arenaria-interpres_181624-3019.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/aguila-serpiente-crestada_60359-470.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/analytics.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/api.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/aves-montana-blanco-negro_119272-13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/aves-volando-cielo-azul_53876-18297.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/bandada-pelicanos-volando-sobre-lago-lago-bosques-ontario-canada_19485-20806.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/bat.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/buitre-miel_181624-1426.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/buteo-buteo-buitre-comun-rapaz_147854-23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/cabeza-gallina-cerca_181624-1232.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/cabeza-ratonero-juvenil-miel_181624-534(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/cabeza-ratonero-juvenil-miel_181624-534.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/canal-venecia-sol-aves-voladoras_447-19326951.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/carbonero-comun-rama-ultimas-luces-tarde-pajaros-paseriformes-periparus-ater_153442-470.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/cerca-caracara-crestada-sur_178355-51.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/chiffchaff-migratorio-comun-phylloscopus-collybita_181624-2194.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/closeup-foto-pato-sus-patitos-cerca-rio_181624-3191.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/coleccion-varias-aves-historia-tierra-naturaleza-animada-1820_53876-65233.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/colirrojo-negro-macho-phoenicurus-ochruros_181624-2625.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/common.1bba2bcc24a3b1d801d4.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/concepto-granja-aves-domesticas_23-2148573860.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/conjunto-piezas-pollo_23-2147765500.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/core.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/counter.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/dc_pre=CIL6_oL6iuoCFUYcGwodmGEMJg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/default_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/default_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/default_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/default_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/default_06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/default_07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/default_08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/default_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/delicioso-pollo-mesa_144627-8758.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/disparo-enfoque-selectivo-pato-mallard-agua_181624-5895.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/ec.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/ensalada-tibia-higado-pollo-aguacate-tomate-huevos-codorniz-cena-saludable-menu-dietetico-endecha-plana-vista-superior_2829-4342.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/f(1).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/f(10).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/f(11).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/f(12).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/f(13).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/f(14).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/f(15).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/f(16).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/f(17).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/f(18).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/f(19).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/f(2).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/f(20).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/f(21).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/f(22).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/f(23).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/f(24).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/f(25).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/f(26).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/f(27).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/f(28).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/f(29).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/f(3).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/f(4).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/f(5).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/f(6).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/f(7).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/f(8).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/f(9).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/f.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/fb.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/fbevents.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/filete-pollo-frito-tomate-hierbas_140725-6432.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/freepik-31ac68b1d977bfda0335.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/freepikcompany-footer.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/gallo-blanco-gallinas-granja_23-2147924179.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/garza-blanca_1163-3470.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/gaviota-juvenil-hydrocoloeus-minutus-larus-minutus_181624-2989.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/gaviota-volando-alas-extendidas_1122-745.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/gaviota-volando-nubes-fondo_1206-48.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/global.63a91b899784df279b28.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/gpt.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/gtm.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/hermosa-gaviota-cielo-fondo_1122-744.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/hermoso-colorido-pajaro-posado-arbol_146066-61.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/huevos-gallina_1339-867.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/imp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/imp(1)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/jay-rama_153442-292.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/js(1)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/js(2)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/js(3)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/js(4)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/js(5)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/js(6)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/lado-observacion-aves-pareja_23-2148243184.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/ld.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/lechuza_181624-458.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/macaw-papagay-contra-naturaleza_1398-1185.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/macho-adulto-reedling-barbudo-humedal-vegetacion-cana_153442-369.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/main-0a128bc9c50c1091d7f5.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/main.10663321d733f1555f43.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/main.b3497531.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/martin-pescador-alcedo-atthis-martin-pescador-ornitologia-pesca-rio-pajaro_147854-13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/martin-pescador-comun-alcedo-hermosa-hembra-aves-tailandia_35071-915.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/migrante-primavera-mosquero-manchado-muscicapa-striata_181624-5407.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/mosquero-manchado-muscicapa-striata_181624-2720.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/observacion-aves-lateral-hombre_23-2148243196.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/papel-blanco-blanco-portapapeles-huevo-batido-tazon-harina-sobre-fondo-blanco_23-2148120066.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/photo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/pixel.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/pollo-asado-al-horno-pollo-entero-parrilla-hierbas-especias-plato-madera-oscuro_73523-2113.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/pollo-romero-plato_23-2147765495.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/primer-plano-hermoso-mirlo-alas-rojas-sentado-rama-fondo-hierba-borrosa_181624-3582.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/primer-plano-hermoso-pequeno-pato-lindo-nadando-lago_181624-703.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/primer-plano-pollo-volando-aire_23-2147924175.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/ratonero-comun-buteo-buteo-bosque_3510-976.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/raven.min.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/recaptcha__es.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/retrato-pato-nadando-estanque_23-2147923921.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/rollito-pollo-ciruelas-pasas-albaricoques-secos_2829-15835.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/saved_resource(1).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/saved_resource(10).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/saved_resource(11).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/saved_resource(12).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/saved_resource(13).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/saved_resource(2).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/saved_resource(3).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/saved_resource(4).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/saved_resource(5).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/saved_resource(6).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/saved_resource(7).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/saved_resource(8).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/saved_resource(9).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/saved_resource.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/simbiosis-colibri-flor_146066-63.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/tangara-alada-azul-descansando-sobre-rama-arbol_146066-77.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/translations.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/trepatroncos-pecho-blanco_181624-5925.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/unnamed.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/user_downloads.9f220e9d3ead699dd916.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/uwt.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/vista-inferior-gaviota-volando-alto_1122-747.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/vista-inferior-gaviotas-volando_1122-743.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/aves_files/yieldlove-bidder.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/barbomediterraneo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/boaconstrictor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bordes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bordes_logo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/canguro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/10.8d45639299be651becbe.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/1470657753234558" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/18676.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/18831218.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/19024461.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/19347644.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/1px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/2199844.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/240_F_101601082_NU7bzkmrZ4JuAuvTYNepjhYatI1yBsnP.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/240_F_105322_Im0A7HZNJlZ01gTva6TmZjBcQrA6lh.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/240_F_13094293_LfxhplgUSRi55WqdIAVUDH1bM7uvOo4a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/240_F_142017040_IpEbmes2ZUDe6WAlW7vvCC8J0zEH7lNF.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/240_F_173421328_QuJArcFcnVhS2CO2FBzNUxIO2AAal8J1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/240_F_187646607_Efn6Z7cBAXyyZl4Wdj0j4U82KvU3Cx3G.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/240_F_188409420_e3DPsps6dDw1krtNnci2gQwXCKAJka9F.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/240_F_196022310_L4qLSzJtD3S7HiWi8VdEzPRbEoJod9bo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/240_F_234733903_4agOcFu8aTdZzpJERHDNuiCBfubHhv2c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/240_F_236536796_owSzK8TxeN5CyEVxAbLq2URt9g2btJTY.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/240_F_248616140_B9gLkj0O9x2ndcsY4zYBXaVC5OHLKdxM.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/240_F_273622178_XtfTOe7GEKvRsUM9fW2mBfzQBvNCMc6j.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/240_F_283928664_br8O6yRYaDut9tUP8DhIFuKg74WYwQUO.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/240_F_296628665_r3QxzqDZ8cJz1js2vplObAU4kUJ6XJlF.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/240_F_299626605_O592seXWBoIteDMjKcYPDKDZvhDAsNB7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/240_F_309830892_Gx7GGMSwOrGaFc4LrCkKhyRvbCADQyUW.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/240_F_334522439_FkUZgPFbn6XDyAy5VwAZhP2NHQehIYzO.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/240_F_334522699_YOHbG5q2E9XDWDQeloVzZ662g7TxtVdI.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/240_F_3449420_BnWYZ4oh4RxKMsFGHIoCCsFGHnf3gs.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/240_F_357154446_qT5NIhPwz7FuHSFBP3Y65Yhuc2kF0GJg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/240_F_358023460_OovNQKoC0dFkvPGRT4B83RkSaM40GNfU.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/240_F_360945933_k4THS0CqL50UiTlPBYHMJv1NgRoCx9bY.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/240_F_370523068_dwlJJ3uGLkTux4N9zunkHaXRLFW75ijY.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/240_F_373854050_LljitrEa5z7bAawzJ0LluetgzUqOoL00.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/240_F_48679517_jtqO6cTFSYuAGrfHIAMyhRm1zjR2xoAW.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/240_F_71516324_FlriaxLDN6hzxSnO1D0gg8i0LUc5FWEK.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/240_F_81265778_VTWBU48NmInQdiKVL5zIqmJwG6O3uK1F.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/32.2cb95d09a6655a841d30.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/33.372c296f5faea804e481.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/34.0fb6d096b6e74abd8f04.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/37.6a84ea456e88b60868cf.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/4221997.js(1).descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/4221997.js(2).descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/4221997.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/6.783a885762353da81cf3.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/61.f4ae24770562752a6e14.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/62.0da4b3bd06025183b85e.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/64.0280ae7bdf3d35e153b1.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/970x250_ES_yellow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/ES_pencil-month.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(1).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(10).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(11).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(12).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(13).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(14).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(15).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(16).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(17).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(18).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(19).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(2).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(20).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(21).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(22).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(23).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(24).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(25).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(26).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(27).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(28).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(29).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(3).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(30).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(31).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(32).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(33).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(34).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(35).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(36).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(37).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(38).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(39).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(4).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(40).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(41).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(42).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(43).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(44).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(45).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(46).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(47).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(48).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(49).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(5).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(50).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(51).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(52).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(53).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(54).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(55).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(56).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(6).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(7).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(8).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi(9).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/activityi.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/adobestock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/analytics.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/api.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/apstag.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/arana-cardenal-tegenaria-parietina-aislada_191971-15699.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/arana-cardenal-tegenaria-parietina-aislada_191971-15700.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/arana-cardenal-tegenaria-parietina-aislada_191971-15702.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/arana-cardenal-tegenaria-parietina-aislada_191971-15705.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/bat.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/box-469cf41adb11dc78be68c1ae7f9457a4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/cardenal-norteno-rama_181624-6186.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/cardenal-norteno-rojo-brillante-posado-rama-agave-desierto-arizona_218530-214.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/client" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/colorido-pajaro-tomando-sol-rama_146066-113.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/common.1aedfa2b40be2e95f0a0.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/composicion-viaje-mapa-mundo-articulos-decorativos_23-2147604706.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/core.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/counter.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/cowbird-brillante-encaramado-rama-arbol_146066-112.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CI28wvuD6-sCFcGnGwodDlQGxQ" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CIP9gsWD6-sCFY9B9ggdoi0Mlw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CIb978KG6-sCFZCBhQoda8IPCQ" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CIfr-JmG6-sCFcefhQodXjkBLg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CIqAyIOE6-sCFQKRGwod2O0Ijw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CJ65ldKD6-sCFVA_0wodH-kFHg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CJGex9KD6-sCFUkZ0wodz1kBeQ" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CJak-Y6E6-sCFcOehQodORAJ3A" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CJe-2NKD6-sCFVLN3godJ2EJxA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CJfFlb-G6-sCFRSEhQodLFICbw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CJjP45CE6-sCFQcuGwodBJYL9A" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CJu-spGE6-sCFbSlhQodQgwPLw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CK351tOC6-sCFcrE3godoTUDuQ" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CKPrntGE6-sCFdWMGwodT54L4A" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CKTYo8WD6-sCFXAg0wodVvoL8g" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CKad2NOC6-sCFd1B9ggdzEsMvw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CKbCx_WE6-sCFdcBGwodH2MMVA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CKiTo_WE6-sCFVcdGwodQUUO3w" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CKmO7pCE6-sCFRGBhQodFngH1w" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CKzHv_yD6-sCFU-PGwodpC4Nkw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CL622NOC6-sCFWze3god1qsK6Q" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CL7C-L6G6-sCFcchGwodKK4J3A" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CLCso4OE6-sCFQYgGwodyJYKrw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CLDC2r-G6-sCFUkaGwodFEIG2Q" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CLX-hNGE6-sCFQuChQodtxQFRQ" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CLadytGE6-sCFdaEhQodjXwH4Q" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CLjrjcOG6-sCFUaZGwodkecA5w" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CLmb2NOC6-sCFVLS3godLz8JLw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CMCfs9iC6-sCFYlK0wod80oEBg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CMOOhMaD6-sCFVLG3godn4wA7g" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CMmMtZGE6-sCFcxmGwodt7MFzQ" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CMn3146E6-sCFQKRGwod2O0Ijw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CMrGx9GE6-sCFQZIGwodNM8Jyg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CMuxjfWE6-sCFXlBHQkdlaoK-g" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CMvq_-OD6-sCFZFT0wode-sPyw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CN-Ou_2D6-sCFQVuGwodGxoJBA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CNGhnt-C6-sCFUMaGwodalwAXA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CNHh44KE6-sCFcGnGwodDlQGxQ" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CNKp8d6C6-sCFVLS3godLz8JLw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CNLX-diC6-sCFcbZ3godIkYHIg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CNTz8PSE6-sCFVMfGwodnawMaQ" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CN_xpJqG6-sCFQwTGwodGxACaQ" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CNeg6tiC6-sCFc_e3godHl4AwQ" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CNm02NOC6-sCFYlK0wod80oEBg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CO6LqdKD6-sCFYJ70wod8D8JTw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=COOw3cKG6-sCFcvcGwodoPQI-Q" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=COSqnpqG6-sCFddEGwodVVkNug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=COTUh9iC6-sCFcR60wod6VMHew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=COXnrb-G6-sCFYeRhQodnakNHQ" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=COeUvd-C6-sCFQnAGwodufcJHw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=COeXnJqG6-sCFdSHhQodg_4Lzg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=COzLvfyD6-sCFZUhGwodOOoB7Q" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CP6jooOE6-sCFQcuGwodBJYL9A" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CP7FpcOG6-sCFU7iGwodX0UF6Q" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CPa60NSC6-sCFYnZ3godWx0JuA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CPrlsMWD6-sCFZDY3godW-ENiQ" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/dc_pre=CPuVjN-C6-sCFcrE3godoTUDuQ" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/default_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/default_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/ec.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/event" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/event(1)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(1).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(10).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(11).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(12).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(13).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(14).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(15).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(16).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(17).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(18).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(19).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(2).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(20).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(21).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(22).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(23).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(24).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(25).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(26).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(27).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(28).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(29).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(3).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(30).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(31).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(32).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(33).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(34).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(35).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(36).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(37).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(38).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(39).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(4).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(40).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(41).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(42).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(43).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(44).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(45).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(46).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(47).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(48).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(49).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(5).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(50).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(51).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(52).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(53).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(54).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(55).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(56).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(6).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(7).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(8).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f(9).txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/f.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/fb.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/fbevents.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/fondo-viaje-linterna-encendida_23-2147604709.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/freepik-638c69e855847b374d69.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/freepik-656271.min.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/freepik.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/freepikcompany-footer.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/freepikuk.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/global.b199d3bdae00488541c4.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/gtm.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/hermosa-foto-cardenal-norte-rama-arbol_181624-2522.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/hotjar-1331604.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/icono-hashtag-mano-levantada-sosteniendo_53876-47255.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/imp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/imp(1)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/imp(2)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/js(1)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/js(2)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/js(3)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/js(4)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/js(5)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/js(6)" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/ld.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/main-93d8937f74bec6e91d1b.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/main.2424edb5.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/main.90a7550861cedfc4cc4b.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/mano-que-sostiene-numero-dos-signo_53876-63744.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/mano-que-sostiene-simbolo-hashtag_53876-63747.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/mano-que-sostiene-simbolo-hashtag_53876-63750.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/mano-sosteniendo-numero-2_53876-63724.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/mano-sosteniendo-numero-3_53876-63771.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/mano-sosteniendo-numero-4_53876-63775.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/mano-sosteniendo-numero-7_53876-63803.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/manos-sosteniendo-letra-6_53876-63714.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/manos-sosteniendo-numero-0_53876-63651.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/manos-sosteniendo-numero-0_53876-63668.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/manos-sosteniendo-numero-1_53876-63708.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/manos-sosteniendo-numero-5_53876-63662.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/manos-sosteniendo-numero-5_53876-63679.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/modules.c9554d85cf36b71ede46.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/otBannerSdk.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/otSDKStub.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/otTCF.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/pajaro-cardenal-norteno-arbol-nevado_181624-5674(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/pajaro-cardenal-norteno-arbol-nevado_181624-5674.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/pajaro-descansando-sobre-rama-arbol_146066-100.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/pajaro-entrando-su-nido-arbol-seco_146066-119.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/pajaro-posado-naranjo_146066-104.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/pajaro-posado-rama-buscando-comida_146066-114.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/pixel.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/pubads_impl_2020090101.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/puntos-cardinales-flecha-norte-mapa-antiguo_23-2148232427.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/puntos-cardinales-mapa-antiguo_23-2148232428.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/racimo-seco-uvas-azules-sobre-blanco-rustico_114579-3784.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/raven.min.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/recaptcha__es.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/retrato-pico-negro-cabeza-negra-encaramado-congruencia-ramas-anchas_218530-321.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/saved_resource(1).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/saved_resource(10).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/saved_resource(11).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/saved_resource(12).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/saved_resource(13).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/saved_resource(14).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/saved_resource(15).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/saved_resource(16).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/saved_resource(17).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/saved_resource(18).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/saved_resource(19).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/saved_resource(2).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/saved_resource(20).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/saved_resource(21).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/saved_resource(22).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/saved_resource(23).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/saved_resource(24).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/saved_resource(3).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/saved_resource(4).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/saved_resource(5).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/saved_resource(6).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/saved_resource(7).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/saved_resource(8).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/saved_resource(9).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/saved_resource.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/style" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/translations.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/unnamed(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/unnamed.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/user_downloads.1559311027371483a330.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/uva-madura-fresca-amarillo-vista-superior_185193-18566.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/uva-roja-madura-hojas-blanco_114579-3964.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/uva-roja-madura-hojas-blanco_114579-3965.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cardenal_files/uwt.js.descarga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/carpaplateada.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/casuario.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/condor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/cross.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/diabloespinoso.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/dragondemar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/europa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/faisancoronablanca.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/galapagoleproso.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/grullamanchuria.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/halcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hiena.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hojaseucalipto.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hornero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hylaavivoca.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/iconoafrica.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/iconoaltavoz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/iconoamerica.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/iconoamericanorte.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/iconoamericasur.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/iconoanfibios.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/iconoasia.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/iconoaves.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/iconodesarrolladores.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/iconoeditarperfil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/iconoeuropa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/iconomamiferos.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/iconomantenimiento.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/iconooceania.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/iconopeces.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/iconopequenoleon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/iconoprincipal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/iconoquiz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/iconoreptiles.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/iconosalir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/jirafa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/kiwi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/koala.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/kraitrayada.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/leon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/leonfoto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/leonicono.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/linceiberico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/logopantallaprincipal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/mambanegra.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/mamiferos.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/mamiferosgeneral.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/oceania.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ornitorrinco.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/osogrizzly.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pajarosecretario.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/peces.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/perdizroja.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pezgato.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pirana.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ranaarlequin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ranacorroboree.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ranagoliat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rebeco.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/reptiles.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/resultados.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/resultados1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/salamandracomun.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/serpientedellodo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tamarinoleondorado.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tilapia.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tui.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/verderonserrano.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/yak.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_aleatorio_quiz.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_anfibios.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_aves.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_carga.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_datos_anfibios_completos.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_datos_aves_completos.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_datos_mamiferos_completos.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_datos_peces_completos.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_datos_reptiles_completos.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_mamiferos.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_peces.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pregunta1_quiz2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pregunta1_quiz3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pregunta2_quiz2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pregunta2_quiz3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pregunta3_quiz2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pregunta4_quiz2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pregunta5_quiz2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_principal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_principal_quiz.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_principal_quiz3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_quiz.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_reptiles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_resultados.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_mantenimiento.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_anfibios.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_aves.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_mamiferos.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_peces.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_reptiles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_principal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_principal_quiz.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_resto.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/iconosanimales.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/logoapp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/sonidolince.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/example/animalquiz/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/javabean/DatosMamiferos.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/javabean/DatosMamiferos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_datos_mamiferos_completos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_datos_mamiferos_completos.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -830,7 +43,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="4.65_720p_Galaxy_Nexus_API_29" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5_API_29" />
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
@@ -858,11 +71,30 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_resto.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/javabean/DatosMamiferos.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="26" column="87" selection-start-line="26" selection-start-column="87" selection-end-line="26" selection-end-column="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_datos_mamiferos_completos.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="74" column="49" lean-forward="true" selection-start-line="74" selection-start-column="49" selection-end-line="74" selection-end-column="49" />
             </state>
           </provider>
           <provider editor-type-id="android-designer2" />
@@ -875,7 +107,6 @@
               <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
             </state>
           </provider>
-          <provider editor-type-id="android-manifest" />
         </entry>
       </file>
     </leaf>
@@ -939,17 +170,17 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/AleatorioQuizActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_principal_quiz.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_principal.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_datos_mamiferos_completos.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/MantenimientoFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_mantenimiento.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/PrincipalActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_principal.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/DatosMamiferosCompletosActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/javabean/Mamiferos.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/javabean/DatosMamiferos.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/MamiferosActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_resto.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/javabean/DatosMamiferos.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_datos_mamiferos_completos.xml" />
       </list>
     </option>
   </component>
@@ -965,9 +196,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -982,8 +213,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="2XJDU17825012799" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-10-12T19:13:06.636Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Nexus_5_API_29" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-10-18T15:57:36.031Z" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -1134,15 +365,15 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.04465213" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.32917964" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5026652" side_tool="true" weight="0.13291797" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="6" visible="true" weight="0.32917964" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49733475" weight="0.15991692" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.32917964" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49733475" visible="true" weight="0.15991692" />
       <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" weight="0.32917964" />
       <window_info anchor="bottom" id="Find" order="9" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Preview" order="4" weight="0.4077156" />
+      <window_info active="true" anchor="right" id="Preview" order="4" visible="true" weight="0.40724948" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
     <layout-to-restore>
@@ -1497,14 +728,6 @@
       <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_datos_mamiferos_completos.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="85" column="48" selection-start-line="85" selection-start-column="48" selection-end-line="85" selection-end-column="48" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_principal.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1557,13 +780,6 @@
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/javabean/DatosMamiferos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="21" column="82" selection-start-line="21" selection-start-column="82" selection-end-line="21" selection-end-column="82" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/javabean/Mamiferos.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1621,6 +837,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_resto.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/javabean/DatosMamiferos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="87" selection-start-line="26" selection-start-column="87" selection-end-line="26" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1629,10 +860,10 @@
       </provider>
       <provider editor-type-id="android-manifest" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_resto.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_datos_mamiferos_completos.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        <state relative-caret-position="302">
+          <caret line="74" column="49" lean-forward="true" selection-start-line="74" selection-start-column="49" selection-end-line="74" selection-end-column="49" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />

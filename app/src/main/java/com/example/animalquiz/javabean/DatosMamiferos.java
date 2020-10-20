@@ -19,10 +19,10 @@ public class DatosMamiferos {
                 "NO", "se encuentra en el bosque y matorral mediterráneo, en zonas muy restringidas de la península ibérica.", R.raw.sonidolince));
 
         listaMamiferos.add(new Mamiferos("África","El león", R.drawable.leonfoto, R.drawable.iconoafrica ,"Mammalia", "Macho: 190 kgs (Adulto), Hembra: 130 kgs (Adulto)", "Macho: 1,7 – 2,5 m (Cabeza y cuerpo), Hembra: 1,4 – 1,8 m", "10 - 14 años", "Zebras, gacelas o jabalíes",
-                "SI", "El territorio de sub Sahara de África.",  R.raw.sonidolince));
+                "SI", "El territorio de sub Sahara de África.",  R.raw.sonidoleon));
 
         listaMamiferos.add(new Mamiferos("África","La hiena", R.drawable.hiena, R.drawable.iconoafrica ,"Mammalia", "44 – 64 kg", "95 – 170 cm", "12 años", "Se alimentan de animales muertos abandonados por otros carnívoros.",
-                "SI", "África subsahariana. Sabana, matorrales y desierto.", 1));
+                "SI", "África subsahariana. Sabana, matorrales y desierto.", R.raw.sonidohienas));
 
         listaMamiferos.add(new Mamiferos("Europa","Rebeco", R.drawable.rebeco, R.drawable.iconoeuropa ,"Mammalia", "Macho: 30 – 60 kg (Adulto), Hembra: 25 – 45 kg (Adulto)", "1,1 – 1,4 m", "Si está en libertad a" +
                 "alcanzará los 17 años aprox.", "su dieta incluye pasto, plantas herbáceas, brotes, musgo e incluso gramíneas.",
@@ -34,7 +34,7 @@ public class DatosMamiferos {
 
         listaMamiferos.add(new Mamiferos("Africa","Jirafa", R.drawable.jirafa, R.drawable.iconoafrica ,"Mammalia", "Macho: un promedio de hasta 1192 kgs, Hembra: un promedio de hasta 828 kgs", "4,2 m", "En libertad llegan hasta los 25 años y en cautividad hasta los 35 años," +
                 "ya que hay menos depredadores y reciben cuidados médicos", "se alimentan principalmente de árboles de acacia y Commiphora (mirra).",
-                "NO", "Se la suele encontrar en: sabanas y bosques abundantes en vegetación.", 4));
+                "NO", "Se la suele encontrar en: sabanas y bosques abundantes en vegetación.", R.raw.sonidojirafa ));
 
         listaMamiferos.add(new Mamiferos("Oceanía","Ornitorrinco", R.drawable.ornitorrinco, R.drawable.iconooceania ,"Mammalia", "Macho: 1 - 2,4 kgs, Hembra: 0,7 - 1,6 kgs", "Macho: hasta 50 cm, Hembra: hasta 43 cm", "Hasta 17 años en cautiverio", "Se basa en insectos acuáticos y sus larvas, crustáceos y moluscos acuáticos, lombrices de tierra o acuáticas, pequeños peces e incluso algunos recursos vegetales.",
                 "NO", "Vive en el este de Australia y de la isla de Tasmania.", 5));
