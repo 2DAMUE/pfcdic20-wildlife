@@ -33,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
 
         timer = new Timer();
 
+        // hola
+
         progressBar.setVisibility(View.INVISIBLE);
         tvCarga.setVisibility(View.INVISIBLE);
 
