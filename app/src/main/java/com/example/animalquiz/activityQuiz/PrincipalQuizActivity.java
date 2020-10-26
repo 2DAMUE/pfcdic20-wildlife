@@ -13,8 +13,8 @@ import android.widget.Toast;
 
 import com.example.animalquiz.R;
 import com.example.animalquiz.activities.PrincipalActivity;
+import com.example.animalquiz.activityQuiz.activityQuiz2.Quiz2Activity;
 import com.example.animalquiz.activityQuiz.activityQuiz3.PrincipalQuiz3Activity;
-import com.example.animalquiz.activityQuiz.quiz2Preguntas.Pregunta1Quiz2Activity;
 
 public class PrincipalQuizActivity extends AppCompatActivity {
 
@@ -74,7 +74,7 @@ public class PrincipalQuizActivity extends AppCompatActivity {
     }
 
     public void entrarQuiz2(View view) {
-        Intent entrarQuiz2 = new Intent(this, Pregunta1Quiz2Activity.class);
+        Intent entrarQuiz2 = new Intent(this, Quiz2Activity.class);
         startActivity(entrarQuiz2);
     }
 
