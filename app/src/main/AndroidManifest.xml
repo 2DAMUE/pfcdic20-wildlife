@@ -11,34 +11,43 @@
         android:roundIcon="@mipmap/logoapp"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
-        <activity android:name=".activityQuiz.quiz2Preguntas.ResultadosActivity"></activity>
-        <activity android:name=".activityQuiz.AleatorioQuizActivity"
-            android:theme="@style/fullScrean.noActionBar"/>
-        <activity android:name=".activityQuiz.activityQuiz3.Pregunta2Quiz3Activity"
-            android:theme="@style/fullScrean.noActionBar"/>
-        <activity android:name=".activityQuiz.activityQuiz3.PrincipalQuiz3Activity"
-            android:theme="@style/fullScrean.noActionBar"/>
-        <activity android:name=".activityQuiz.activityQuiz3.Pregunta1Quiz3Activity"
-            android:theme="@style/fullScrean.noActionBar"/>
-        <activity android:name=".activityQuiz.quiz2Preguntas.Pregunta5Quiz2Activity"
-            android:theme="@style/fullScrean.noActionBar"/>
-        <activity android:name=".activityQuiz.quiz2Preguntas.Pregunta4Quiz2Activity"
-            android:theme="@style/fullScrean.noActionBar"/>
-        <activity android:name=".activityQuiz.quiz2Preguntas.Pregunta3Quiz2Activity"
-            android:theme="@style/fullScrean.noActionBar"/>
-        <activity android:name=".activityQuiz.quiz2Preguntas.Pregunta2Quiz2Activity"
-            android:theme="@style/fullScrean.noActionBar"/>
+        <activity android:name=".activities.Main2Activity"></activity>
+        <activity android:name=".activityQuiz.quiz2Preguntas.ResultadosActivity" />
+        <activity
+            android:name=".activityQuiz.AleatorioQuizActivity"
+            android:theme="@style/fullScrean.noActionBar" />
+        <activity
+            android:name=".activityQuiz.activityQuiz3.Pregunta2Quiz3Activity"
+            android:theme="@style/fullScrean.noActionBar" />
+        <activity
+            android:name=".activityQuiz.activityQuiz3.PrincipalQuiz3Activity"
+            android:theme="@style/fullScrean.noActionBar" />
+        <activity
+            android:name=".activityQuiz.activityQuiz3.Pregunta1Quiz3Activity"
+            android:theme="@style/fullScrean.noActionBar" />
+        <activity
+            android:name=".activityQuiz.quiz2Preguntas.Pregunta5Quiz2Activity"
+            android:theme="@style/fullScrean.noActionBar" />
+        <activity
+            android:name=".activityQuiz.quiz2Preguntas.Pregunta4Quiz2Activity"
+            android:theme="@style/fullScrean.noActionBar" />
+        <activity
+            android:name=".activityQuiz.quiz2Preguntas.Pregunta3Quiz2Activity"
+            android:theme="@style/fullScrean.noActionBar" />
+        <activity
+            android:name=".activityQuiz.quiz2Preguntas.Pregunta2Quiz2Activity"
+            android:theme="@style/fullScrean.noActionBar" />
         <activity
             android:name=".activityQuiz.quiz2Preguntas.Pregunta1Quiz2Activity"
             android:screenOrientation="portrait"
-            android:theme="@style/fullScrean.noActionBar"/>
+            android:theme="@style/fullScrean.noActionBar" />
         <activity
             android:name=".activityQuiz.PrincipalQuizActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activityQuiz.Quiz1Activity"
             android:screenOrientation="portrait"
-            android:theme="@style/fullScrean.noActionBar"/>
+            android:theme="@style/fullScrean.noActionBar" />
         <activity
             android:name=".activities.DatosPecesCompletosActivity"
             android:screenOrientation="portrait" />
