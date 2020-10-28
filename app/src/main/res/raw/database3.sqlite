@@ -1,0 +1,28 @@
+CREATE TABLE `preguntas` (
+    _id INTEGER AUTO INCREMENT PRIMARY KEY,
+    `pregunta` VARCHAR(256),
+    `rtaCorrecta` VARCHAR(32) NOT NULL,
+    `rtaIncorrecta1` VARCHAR(32) NOT NULL,
+    `rtaIncorrecta2` VARCHAR(32) NOT NULL,
+    `rtaIncorrecta3` VARCHAR(32) NOT NULL,
+    `dificultad` CHARACTER NOT NULL DEFAULT 'F',
+    `categoria` CHARACTER NOT NULL DEFAULT 'I',
+    `imagen` VARCHAR(32) DEFAULT "NULL",
+    `sonido` VARCHAR(32) DEFAULT "NULL",
+    `tipo` INTEGER NOT NULL
+ );
+
+-- tipo
+-- 1: pregunta texto, respuesta texto
+-- 2: pregunta imagen, respuesta texto
+-- 3: pregunta texto, respuesta imagen
+-- 4: pregunta sonido, respuesta texto
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `sonido`, `tipo`)
+VALUES("¿Quién te parece que es?", "Homero Simpson", "Shrek", "Manny", "Sulley", "homer", 4);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `sonido`, `tipo`)
+VALUES("¿A qué película pertenece?", "Wall-E", "Intensa-mente", "Robots", "El Gigante de Hierro", "walle", 4);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `sonido`, `tipo`)
+VALUES("¿Quienes son los interpretes de esta canción?", "Minions", "Timón y Pumba", "Personajes de Cuentos de Shrek", "Juguetes de Toy Story", "banana", 4);

@@ -76,7 +76,6 @@
         android:layout_height="wrap_content"
         android:background="@drawable/bordes"
         android:gravity="center"
-        android:onClick="entrarQuizAleatorio"
         android:text="@string/btn_quiz_aleatorio"
         android:textColor="@android:color/white"
         android:textSize="30sp"

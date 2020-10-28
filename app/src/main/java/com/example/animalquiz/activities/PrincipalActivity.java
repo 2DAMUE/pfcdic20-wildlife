@@ -17,8 +17,8 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
+import com.example.animalquiz.PrincipalQuizActivity;
 import com.example.animalquiz.R;
-import com.example.animalquiz.activityQuiz.PrincipalQuizActivity;
 import com.example.animalquiz.fragments.MantenimientoFragment;
 
 public class PrincipalActivity extends AppCompatActivity {

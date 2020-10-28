@@ -15,8 +15,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import uk.co.senab.photoview.PhotoViewAttacher;
 
+import com.example.animalquiz.PrincipalQuizActivity;
 import com.example.animalquiz.R;
-import com.example.animalquiz.activityQuiz.PrincipalQuizActivity;
 import com.example.animalquiz.javabean.DatosMamiferos;
 import com.example.animalquiz.javabean.Mamiferos;
 

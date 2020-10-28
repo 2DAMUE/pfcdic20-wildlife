@@ -1,0 +1,26 @@
+CREATE TABLE `preguntas` (
+    _id INTEGER AUTO INCREMENT PRIMARY KEY,
+    `pregunta` VARCHAR(256),
+    `rtaCorrecta` VARCHAR(32) NOT NULL,
+    `rtaIncorrecta1` VARCHAR(32) NOT NULL,
+    `rtaIncorrecta2` VARCHAR(32) NOT NULL,
+    `rtaIncorrecta3` VARCHAR(32) NOT NULL,
+    `dificultad` CHARACTER NOT NULL DEFAULT 'F',
+    `categoria` CHARACTER NOT NULL DEFAULT 'I',
+    `imagen` VARCHAR(32) DEFAULT "NULL",
+    `sonido` VARCHAR(32) DEFAULT "NULL",
+    `tipo` INTEGER NOT NULL
+ );
+
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `imagen`, `tipo`)
+VALUES("¿Qué película es?", "El Rey León", "Madagascar", "La Era del Hielo", "Hakuna Matata", "elreyleon", 2);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `imagen`, `tipo`)
+VALUES("¿Qué película es?", "Madagascar", "El Rey León", "La Era del Hielo", "Zootopia", "madagascar", 2);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `imagen`, `tipo`)
+VALUES("¿Qué película es?", "Monsters, Inc.", "Shrek", "El Libro de la Selva", "Zootopia", "monstersinc", 2);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `imagen`, `tipo`)
+VALUES("¿Qué película es?", "Ratatouille", "Intensa-mente", "Frozen", "Río", "ratatouille", 2);

@@ -12,8 +12,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.example.animalquiz.PrincipalQuizActivity;
 import com.example.animalquiz.R;
-import com.example.animalquiz.activityQuiz.PrincipalQuizActivity;
 import com.example.animalquiz.adapters.AvesAdapter;
 import com.example.animalquiz.javabean.Aves;
 import com.example.animalquiz.javabean.DatosAves;
