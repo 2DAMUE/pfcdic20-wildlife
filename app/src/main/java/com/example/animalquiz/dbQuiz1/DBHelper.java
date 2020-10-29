@@ -10,7 +10,7 @@ import com.example.animalquiz.R;
 import java.util.Scanner;
 
 public class DBHelper extends SQLiteOpenHelper {
-    public static final String NOM_DB = "QuizAppLite";
+    public static final String NOM_DB = "Quiz1";
     public static final int DB_VERSION = 1;
 
     protected SQLiteDatabase DBLite;

@@ -21,26 +21,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d573962-72c3-46f1-9547-816fc8e82c69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz2/Quiz2Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz3/Quiz3Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz2/DBHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz2/DBPref2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz2/Pregunta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz3/DBHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz3/DBPref3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz3/Pregunta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/pause.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_quiz1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_quiz3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/banana.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/database2.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/database3.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/homer.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/son_acierto.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/son_error.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/son_ganador.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/raw/walle.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/fragments/DatosQuiz1Fragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/iconodatos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_datos_quiz1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -51,31 +34,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/AnfibiosActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/AnfibiosActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/AvesActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/AvesActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/DatosAvesCompletosActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/DatosAvesCompletosActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/DatosMamiferosCompletosActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/DatosMamiferosCompletosActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/DatosPecesCompletosActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/DatosPecesCompletosActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/DatosReptilesCompletosActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/DatosReptilesCompletosActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/MamiferosActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/MamiferosActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/PecesActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/PecesActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/PrincipalActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/PrincipalActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/ReptilesActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/ReptilesActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/AleatorioQuizActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/PrincipalQuizActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/PrincipalQuizActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/Quiz1Activity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/activityQuiz2/Quiz2Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz1/Quiz1Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/activityQuiz3/Pregunta1Quiz3Activity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/activityQuiz3/Pregunta2Quiz3Activity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/activityQuiz3/PrincipalQuiz3Activity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/db/DBHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz1/DBHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/db/DBPref.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz1/DBPref.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/db/Pregunta.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz1/Pregunta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz1/Quiz1Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz1/Quiz1Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz1/DBHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz1/DBHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_principal_quiz.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_principal_quiz.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_quiz.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_quiz1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_quiz1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_quiz2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_quiz2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/database.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/database1.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_quiz3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_quiz3.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +50,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="39V7N19408014674" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5_API_29" />
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
@@ -96,81 +60,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz2/DBHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz2/DBPref2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz2/Quiz2Activity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="71" column="27" lean-forward="true" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz3/Quiz3Activity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz3/Pregunta.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz3/DBHelper.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_datos_quiz1.xml">
+          <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="153">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz3/DBPref3.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz1/Quiz1Activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+            <state relative-caret-position="405">
+              <caret line="133" column="63" lean-forward="true" selection-start-line="133" selection-start-column="63" selection-end-line="133" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/raw/database3.sqlite">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_quiz1.xml">
+          <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="93" lean-forward="true" selection-start-line="21" selection-start-column="93" selection-end-line="21" selection-end-column="93" />
+            <state relative-caret-position="468">
+              <caret line="100" column="34" selection-start-line="100" selection-start-column="34" selection-end-line="100" selection-end-column="34" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/fragments/DatosQuiz1Fragment.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -194,8 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/AleatorioQuizActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_principal_quiz.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_principal.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/MantenimientoFragment.java" />
@@ -212,21 +134,15 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/db/Pregunta.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz2/dbQuiz1/DBHelper.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/activityQuiz1/Quiz2Activity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_quiz2.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/activityQuiz2/Quiz2Activity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/activityQuiz3/Quiz2Activity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_quiz3.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/activityQuiz3/Quiz3Activity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_principal_quiz.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_quiz.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/activityQuiz1/Quiz1Activity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/Quiz5Activity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_quiz1.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz1/DBHelper.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/PrincipalQuizActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/PrincipalQuizActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/AnfibiosActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz1/Quiz1Activity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/AvesActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/DatosAvesCompletosActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/DatosMamiferosCompletosActivity.java" />
@@ -245,6 +161,14 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz3/DBPref.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz3/Quiz3Activity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz3/DBHelper.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_quiz3.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_quiz2.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_principal_quiz.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz1/DBHelper.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/fragments/DatosQuiz1Fragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz1/Quiz1Activity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_quiz1.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_datos_quiz1.xml" />
       </list>
     </option>
   </component>
@@ -260,9 +184,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -286,21 +207,14 @@
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="animalquiz" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="activityQuiz3" type="462c0819:PsiDirectoryNode" />
+              <item name="activityQuiz1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Animal Quiz" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="animalquiz" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="dbQuiz2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Animal Quiz" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="animalquiz" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="dbQuiz3" type="462c0819:PsiDirectoryNode" />
+              <item name="fragments" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Animal Quiz" type="1abcf292:AndroidViewProjectNode" />
@@ -311,7 +225,7 @@
               <item name="Animal Quiz" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="raw" type="ddeffd01:AndroidResFolderTypeNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
             <path>
               <item name="Animal Quiz" type="1abcf292:AndroidViewProjectNode" />
@@ -321,14 +235,17 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="39V7N19408014674" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-10-28T19:54:54.322Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-10-29T17:45:18.349Z" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Curso 19-20/AndroidStudioProjects/AppFragmentoDinamico" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -460,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603734194404</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="BackUp 28/10/2020&#10;Añadidos los siguientes Quiz:&#10;-Quiz 2 --&gt; Con imagenes&#10;-Quiz 3 --&gt; Con sonidos">
+      <created>1603916149932</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603916149932</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -474,10 +398,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.498452" visible="true" weight="0.19936034" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.498452" visible="true" weight="0.19936034" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" sideWeight="0.501548" side_tool="true" weight="0.17857143" />
@@ -500,7 +423,7 @@
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Preview" order="4" weight="0.35287845" />
+      <window_info active="true" anchor="right" id="Preview" order="4" visible="true" weight="0.35287845" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
     <layout-to-restore>
@@ -574,35 +497,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="BackUp 12/10/2020" />
     <MESSAGE value="BackUp 26/10/2020&#10;-Cambio menú pantalla principal&#10;-Quiz aleatorio conseguido" />
-    <option name="LAST_COMMIT_MESSAGE" value="BackUp 26/10/2020&#10;-Cambio menú pantalla principal&#10;-Quiz aleatorio conseguido" />
+    <MESSAGE value="BackUp 28/10/2020&#10;Añadidos los siguientes Quiz:&#10;-Quiz 2 --&gt; Con imagenes&#10;-Quiz 3 --&gt; Con sonidos" />
+    <option name="LAST_COMMIT_MESSAGE" value="BackUp 28/10/2020&#10;Añadidos los siguientes Quiz:&#10;-Quiz 2 --&gt; Con imagenes&#10;-Quiz 3 --&gt; Con sonidos" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/javabean/Mamiferos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="150" lean-forward="true" selection-start-line="150" selection-end-line="150" />
-          <folding>
-            <element signature="e#1428#1429#0" expanded="true" />
-            <element signature="e#1465#1466#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mamiferos.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-v24/bordes1.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -611,12 +509,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_datos_mamiferos_completos.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1258">
           <caret line="74" column="49" lean-forward="true" selection-start-line="74" selection-start-column="49" selection-end-line="74" selection-end-column="49" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/bordes_2.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -626,12 +524,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_principal.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2006">
           <caret line="118" column="49" selection-start-line="118" selection-start-column="49" selection-end-line="118" selection-end-column="49" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/javabean/DatosMamiferos.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -641,12 +539,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_resto.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz1/Pregunta.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -655,154 +553,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz2/dbQuiz1/DBHelper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz2/dbQuiz1/DBPref.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz2/dbQuiz1/Pregunta.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz2/dbQuiz1/DBHelper.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz2/dbQuiz1/DBPref.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz2/dbQuiz1/Pregunta.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz2/Pregunta.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/AleatorioQuizActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_quiz2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_quiz3.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/activityQuiz3/Quiz3Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_principal_quiz.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="73" column="35" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_quiz.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/Quiz5Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1733#2670#0" expanded="true" />
-            <element signature="e#2669#2670#0" expanded="true" />
-            <element signature="e#2710#3046#0" expanded="true" />
-            <element signature="e#3045#3046#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz1/DBPref.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/activityQuiz2/Quiz2Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="41" column="46" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz1/DBHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/activityQuiz1/Quiz1Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="86" column="51" lean-forward="true" selection-start-line="86" selection-start-column="51" selection-end-line="86" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/PrincipalQuizActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="67" column="30" lean-forward="true" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_quiz1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/PrincipalQuizActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="51" lean-forward="true" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/AleatorioQuizActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/activityQuiz3/Quiz3Activity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_quiz.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/Quiz5Activity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/activityQuiz2/Quiz2Activity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/activityQuiz1/Quiz1Activity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz/PrincipalQuizActivity.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activities/AnfibiosActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="78" column="57" selection-start-line="78" selection-start-column="57" selection-end-line="78" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz1/Quiz1Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="121" column="70" lean-forward="true" selection-start-line="121" selection-start-column="70" selection-end-line="121" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -917,10 +684,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/raw/database1.sqlite">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/raw/database2.sqlite">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <caret line="22" column="109" lean-forward="true" selection-start-line="22" selection-start-column="109" selection-end-line="22" selection-end-column="109" />
         </state>
       </provider>
     </entry>
@@ -931,17 +698,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/raw/database2.sqlite">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz2/Quiz2Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="109" lean-forward="true" selection-start-line="22" selection-start-column="109" selection-end-line="22" selection-end-column="109" />
+        <state relative-caret-position="850">
+          <caret line="71" column="27" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz2/DBHelper.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz3/Quiz3Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="391">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -950,16 +720,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz3/Pregunta.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz2/Quiz2Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="71" column="27" lean-forward="true" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz3/DBPref3.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -971,24 +731,122 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/raw/database3.sqlite">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="21" column="93" lean-forward="true" selection-start-line="21" selection-start-column="93" selection-end-line="21" selection-end-column="93" />
+          <caret line="21" column="93" selection-start-line="21" selection-start-column="93" selection-end-line="21" selection-end-column="93" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz3/Quiz3Activity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz1/DBPref.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="187">
+          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz3/DBHelper.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/raw/database1.sqlite">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz2/DBHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz1/DBHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="36" column="62" lean-forward="true" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_principal_quiz.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/PrincipalQuizActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="76" column="49" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_mantenimiento.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="49" lean-forward="true" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_quiz2.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_quiz3.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="48" lean-forward="true" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/dbQuiz3/DBHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/activityQuiz1/Quiz1Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="133" column="63" lean-forward="true" selection-start-line="133" selection-start-column="63" selection-end-line="133" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/animalquiz/fragments/DatosQuiz1Fragment.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_quiz1.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="100" column="34" selection-start-line="100" selection-start-column="34" selection-end-line="100" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_datos_quiz1.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
         </state>
       </provider>
     </entry>

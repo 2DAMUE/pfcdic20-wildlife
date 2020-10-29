@@ -4,14 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activityQuiz.activityQuiz2.Quiz2Activity"
-    android:background="@android:color/holo_blue_light">
+    tools:context=".activityQuiz1.Quiz1Activity"
+    android:background="@android:color/holo_blue_light"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/tvNumPregunta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pregunta: 1 de 10"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035" />
 
     <TextView
         android:id="@+id/tvPregunta"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:text="PREGUNTA"
+        android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -20,9 +36,10 @@
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.127" />
+        app:layout_constraintVertical_bias="0.23" />
 
     <LinearLayout
+        android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -78,6 +95,18 @@
             android:textStyle="bold" />
 
     </LinearLayout>
+
+    <FrameLayout
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:id="@+id/f1Contenedor"
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.406" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

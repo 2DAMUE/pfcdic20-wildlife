@@ -12,11 +12,14 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import com.example.animalquiz.PrincipalQuizActivity;
 import com.example.animalquiz.R;
 import com.example.animalquiz.dbQuiz1.DBPref;
 import com.example.animalquiz.dbQuiz1.Pregunta;
+import com.example.animalquiz.fragments.DatosQuiz1Fragment;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -27,12 +30,13 @@ public class Quiz1Activity extends AppCompatActivity implements View.OnClickList
     public final static int NUM_PREGUNTA = 4;
     private final static String COL_BOTON = "#778899";
 
-    private TextView tvPregunta;
+    private TextView tvPregunta, tvNumPregunta;
     private int puntuacion;
     private Button btnOpcion1,btnOpcion2,btnOpcion3,btnOpcion4;
     private DBPref mgtDB;
     private Stack lisPreguntas = new Stack();
     private Pregunta pregunta;
+    private int numPregunta = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +44,7 @@ public class Quiz1Activity extends AppCompatActivity implements View.OnClickList
         setContentView(R.layout.activity_quiz1);
 
         tvPregunta = findViewById(R.id.tvPregunta);
+        tvNumPregunta = findViewById(R.id.tvNumPregunta);
         btnOpcion1 = findViewById(R.id.btnOpcion1);
         btnOpcion2 = findViewById(R.id.btnOpcion2);
         btnOpcion3 = findViewById(R.id.btnOpcion3);
@@ -118,8 +123,21 @@ public class Quiz1Activity extends AppCompatActivity implements View.OnClickList
             if (iterator.hasNext()) {
                 Toast.makeText(this, "¡CORRECTO!", Toast.LENGTH_SHORT).show();
                 this.setPregunta((Pregunta) this.lisPreguntas.pop());
+                numPregunta = numPregunta + 1;
+                this.tvNumPregunta.setText("Pregunta: " + numPregunta + " de 4");
             }else {
-                this.startActivity(new Intent(Quiz1Activity.this, PrincipalQuizActivity.class));
+                FragmentManager fm = getSupportFragmentManager();
+                FragmentTransaction ft = fm.beginTransaction();
+
+                DatosQuiz1Fragment dq1 = new DatosQuiz1Fragment();
+
+                //Informacion que quiero transmitir al fragment
+                Bundle argumentos = new Bundle();
+                dq1.setArguments(argumentos);
+
+                ft.add(R.id.f1Contenedor, dq1);
+                ft.addToBackStack(null);
+                ft.commit();
             }
         }else {
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -129,6 +147,7 @@ public class Quiz1Activity extends AppCompatActivity implements View.OnClickList
                         @Override
                         public void onClick(DialogInterface dialog, int id) {
                             puntuacion -= 2;
+                            numPregunta++;
                         }
                     })
                     .setNegativeButton("Empezar de vuelta", new DialogInterface.OnClickListener() {
