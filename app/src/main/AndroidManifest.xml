@@ -11,9 +11,10 @@
         android:roundIcon="@mipmap/logoapp"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
-        <activity android:name=".activityQuiz1.Quiz1Activity"></activity>
-        <activity android:name=".activityQuiz2.Quiz2Activity"></activity>
-        <activity android:name=".activityQuiz3.Quiz3Activity"></activity>
+        <activity android:name=".activities.ActivityLog"></activity>
+        <activity android:name=".activityQuiz1.Quiz1Activity" />
+        <activity android:name=".activityQuiz2.Quiz2Activity" />
+        <activity android:name=".activityQuiz3.Quiz3Activity" />
         <activity
             android:name=".PrincipalQuizActivity"
             android:screenOrientation="portrait" />
