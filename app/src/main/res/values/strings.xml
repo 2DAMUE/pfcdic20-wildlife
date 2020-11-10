@@ -72,4 +72,5 @@
     <string name="salir_dialog">Aceptar</string>
     <string name="cancelar">Cancelar</string>
     <string name="pregunta">¿Está seguro de que desea salir de la app?</string>
+    <string name="title_activity_maps_mapa">Map</string>
 </resources>
