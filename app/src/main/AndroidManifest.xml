@@ -11,12 +11,19 @@
         android:roundIcon="@mipmap/logoapp"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
-        <activity android:name=".activityQuiz1.Quiz1Activity"></activity>
-        <activity android:name=".activityQuiz2.Quiz2Activity"></activity>
-        <activity android:name=".activityQuiz3.Quiz3Activity"></activity>
+        <activity android:name=".activityQuiz1.Quiz1Activity"
+            android:theme="@style/fullScrean.noActionBar"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activityQuiz2.Quiz2Activity"
+            android:theme="@style/fullScrean.noActionBar"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activityQuiz3.Quiz3Activity"
+            android:theme="@style/fullScrean.noActionBar"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".PrincipalQuizActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/fullScrean.noActionBar"/>
         <activity
             android:name=".activities.DatosPecesCompletosActivity"
             android:screenOrientation="portrait" />
@@ -28,28 +35,33 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".activities.ReptilesActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/fullScrean.noActionBar"/>
         <activity
             android:name=".activities.DatosAnfibiosCompletosActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activities.AnfibiosActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/fullScrean.noActionBar"/>
         <activity
             android:name=".activities.DatosAvesCompletosActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activities.AvesActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/fullScrean.noActionBar"/>
         <activity
             android:name=".activities.DatosMamiferosCompletosActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activities.MamiferosActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/fullScrean.noActionBar"/>
         <activity
             android:name=".activities.PrincipalActivity"
             android:launchMode="singleTask"
+            android:theme="@style/fullScrean.noActionBar"
             android:screenOrientation="portrait" />
         <activity
             android:name=".MainActivity"

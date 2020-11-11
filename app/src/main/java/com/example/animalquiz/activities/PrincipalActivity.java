@@ -94,6 +94,11 @@ public class PrincipalActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    public void entrarQuizPrincipal(View v){
+        Intent entrarQuizPrincipal = new Intent(this, PrincipalQuizActivity.class);
+        startActivity(entrarQuizPrincipal);
+    }
+
     public void entrarMamiferos (View v){
         Intent mamiferos = new Intent(this, MamiferosActivity.class);
         startActivity(mamiferos);

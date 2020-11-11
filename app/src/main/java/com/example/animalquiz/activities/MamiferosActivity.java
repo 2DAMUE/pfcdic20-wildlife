@@ -67,6 +67,11 @@ public class MamiferosActivity extends AppCompatActivity {
         return super.onCreateOptionsMenu(menu);
     }
 
+    public void entrarPrincipal(View v){
+        Intent intent = new Intent(this, PrincipalActivity.class);
+        startActivity(intent);
+    }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 

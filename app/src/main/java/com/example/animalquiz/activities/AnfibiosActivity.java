@@ -66,6 +66,11 @@ public class AnfibiosActivity extends AppCompatActivity {
         return super.onCreateOptionsMenu(menu);
     }
 
+    public void entrarPrincipal(View v){
+        Intent i = new Intent(this, PrincipalActivity.class);
+        startActivity(i);
+    }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 

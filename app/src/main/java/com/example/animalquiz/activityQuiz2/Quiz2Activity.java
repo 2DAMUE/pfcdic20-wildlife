@@ -28,13 +28,14 @@ public class Quiz2Activity extends AppCompatActivity implements View.OnClickList
     public final static int NUM_PREGUNTA = 4;
     private final static String COL_BOTON = "#778899";
 
-    private TextView tvPregunta;
+    private TextView tvPregunta, tvNumPregunta;
     private int puntuacion;
     private Button btnOpcion1,btnOpcion2,btnOpcion3,btnOpcion4;
     private DBPref2 mgtDB;
     private ImageView imgFotoPregunta;
     private Stack lisPreguntas = new Stack();
     private Pregunta pregunta;
+    private int numPregunta = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +43,7 @@ public class Quiz2Activity extends AppCompatActivity implements View.OnClickList
         setContentView(R.layout.activity_quiz2);
 
         tvPregunta = findViewById(R.id.tvPregunta);
+        tvNumPregunta = findViewById(R.id.tvNumPreguntasQ2);
         btnOpcion1 = findViewById(R.id.btnOpcion1);
         btnOpcion2 = findViewById(R.id.btnOpcion2);
         btnOpcion3 = findViewById(R.id.btnOpcion3);
@@ -94,7 +96,6 @@ public class Quiz2Activity extends AppCompatActivity implements View.OnClickList
         if (this.pregunta.getTipo() == 2) {
 
             this.imgFotoPregunta.setBackgroundResource(getResources().getIdentifier(this.pregunta.getImagen(), "drawable", getPackageName()));
-            this.modColTamTexto(true, 20);
         }
     }
 
@@ -117,31 +118,29 @@ public class Quiz2Activity extends AppCompatActivity implements View.OnClickList
 
         if (seleccionado.getText().toString().equals(this.pregunta.getRespuesta())) {
             this.puntuacion++;
+            numPregunta++;
 
             Iterator iterator = this.lisPreguntas.iterator();
             if (iterator.hasNext()) {
                 Toast.makeText(this, "¡CORRECTO!", Toast.LENGTH_SHORT).show();
                 this.setPregunta((Pregunta) this.lisPreguntas.pop());
+                tvNumPregunta.setText("Pregunta: " + numPregunta + " de 4");
+
             }else {
                 this.startActivity(new Intent(Quiz2Activity.this, PrincipalQuizActivity.class));
             }
         }else {
-            AlertDialog.Builder builder = new AlertDialog.Builder(this);
-            builder
-                    .setMessage("Te equivocaste :(, puedes volver a intentarlo pero te restará otro punto...")
-                    .setPositiveButton("Seguir", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialog, int id) {
-                            puntuacion -= 2;
-                        }
-                    })
-                    .setNegativeButton("Empezar de vuelta", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialog, int id) {
-                            finish();
-                        }
-                    })
-                    .show();
+            numPregunta--;
+
+            Iterator iterator = this.lisPreguntas.iterator();
+            if (iterator.hasNext()) {
+                Toast.makeText(this, "¡INCORRECTO!", Toast.LENGTH_SHORT).show();
+                this.setPregunta((Pregunta) this.lisPreguntas.pop());
+                tvNumPregunta.setText("Pregunta: " + numPregunta + " de 4");
+
+            }else {
+                this.startActivity(new Intent(Quiz2Activity.this, PrincipalQuizActivity.class));
+            }
         }
     }
 }

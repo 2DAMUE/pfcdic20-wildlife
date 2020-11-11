@@ -49,11 +49,12 @@
             app:layout_constraintVertical_bias="0.662">
 
             <TextView
+                android:id="@+id/tvPreguntasTotales"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Preguntas totales: "
                 android:textColor="@android:color/white"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -63,12 +64,13 @@
                 app:layout_constraintVertical_bias="0.433" />
 
             <TextView
+                android:id="@+id/tvAciertos"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Has acertado: "
                 android:textColor="@android:color/white"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -78,13 +80,13 @@
                 app:layout_constraintVertical_bias="0.512" />
 
             <TextView
-                android:id="@+id/textView15"
+                android:id="@+id/tvFallos"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Has fallado: "
                 android:textColor="@android:color/white"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -94,13 +96,13 @@
                 app:layout_constraintVertical_bias="0.605" />
 
             <TextView
-                android:id="@+id/textView6"
+                android:id="@+id/tvPuntuacion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Puntos totales: "
                 android:textColor="@android:color/white"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -111,6 +113,7 @@
         </LinearLayout>
 
         <Button
+            android:id="@+id/btnContinuarF"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Aceptar"

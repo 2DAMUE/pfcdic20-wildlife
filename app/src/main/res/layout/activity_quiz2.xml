@@ -5,34 +5,50 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".activityQuiz2.Quiz2Activity"
-    android:background="@android:color/holo_blue_light">
+    android:background="@android:color/holo_blue_light"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tvNumPreguntasQ2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pregunta: 1 de 4"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
 
     <TextView
         android:id="@+id/tvPregunta"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:text="PREGUNTA"
         android:textColor="@android:color/white"
-        android:textSize="24sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.041" />
+        app:layout_constraintVertical_bias="0.099"/>
 
     <ImageView
         android:id="@+id/imgFotoPregunta"
         android:layout_width="fill_parent"
         android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.242"
-        android:adjustViewBounds="true"/>
+        app:layout_constraintTop_toBottomOf="@+id/tvPregunta"
+        app:layout_constraintVertical_bias="0.11" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -41,14 +57,15 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintHorizontal_bias="0.8"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.754">
+        app:layout_constraintTop_toBottomOf="@+id/imgFotoPregunta"
+        app:layout_constraintVertical_bias="0.526"
+        android:layout_marginTop="10dp">
 
         <Button
             android:id="@+id/btnOpcion1"
-            android:layout_width="320dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:background="@drawable/bordes1"
             android:text="RESPUESTA 1"
@@ -58,9 +75,9 @@
 
         <Button
             android:id="@+id/btnOpcion2"
-            android:layout_width="320dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/bordes1"
             android:text="RESPUESTA 2"
             android:textColor="@android:color/white"
@@ -69,9 +86,9 @@
 
         <Button
             android:id="@+id/btnOpcion3"
-            android:layout_width="320dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/bordes1"
             android:text="RESPUESTA 3"
             android:textColor="@android:color/white"
@@ -80,9 +97,9 @@
 
         <Button
             android:id="@+id/btnOpcion4"
-            android:layout_width="320dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/bordes1"
             android:text="RESPUESTA 4"
             android:textColor="@android:color/white"

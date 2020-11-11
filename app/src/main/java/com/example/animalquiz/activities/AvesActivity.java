@@ -1,6 +1,7 @@
 package com.example.animalquiz.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -33,11 +34,14 @@ public class AvesActivity extends AppCompatActivity {
         final DatosAves datosAves = new DatosAves();
 
         rv = findViewById(R.id.rvAves);
+        rv.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL));
 
         aa = new AvesAdapter(datosAves.getListaAves());
 
         llm = new LinearLayoutManager(this);
         rv.setLayoutManager(llm);
+
+        rv.setAdapter(aa);
 
         aa.asignacionOnClickListener(new View.OnClickListener() {
             @Override
@@ -52,7 +56,6 @@ public class AvesActivity extends AppCompatActivity {
             }
         });
 
-        rv.setAdapter(aa);
     }
 
     @Override
@@ -61,6 +64,11 @@ public class AvesActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.menu_resto, menu);
 
         return super.onCreateOptionsMenu(menu);
+    }
+
+    public void entrarPrincipal(View v){
+        Intent i = new Intent(this, PrincipalActivity.class);
+        startActivity(i);
     }
 
     @Override

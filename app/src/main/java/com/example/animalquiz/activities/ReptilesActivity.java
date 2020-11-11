@@ -100,4 +100,9 @@ public class ReptilesActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    public void entrarPrincipal(View v){
+        Intent i = new Intent(this, PrincipalActivity.class);
+        startActivity(i);
+    }
 }

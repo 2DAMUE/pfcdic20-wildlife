@@ -63,6 +63,11 @@ public class PrincipalQuizActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    public void entrarPrincipal(View v){
+        Intent i = new Intent(PrincipalQuizActivity.this, PrincipalActivity.class);
+        startActivity(i);
+    }
+
     public void entrarQuiz1(View v){
         Intent i = new Intent(PrincipalQuizActivity.this, Quiz1Activity.class);
         startActivity(i);
