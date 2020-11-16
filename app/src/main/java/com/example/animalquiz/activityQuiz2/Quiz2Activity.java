@@ -13,11 +13,15 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import com.example.animalquiz.PrincipalQuizActivity;
 import com.example.animalquiz.R;
 import com.example.animalquiz.dbQuiz1.Pregunta;
 import com.example.animalquiz.dbQuiz2.DBPref2;
+import com.example.animalquiz.fragments.DatosQuiz1Fragment;
+import com.example.animalquiz.fragments.DatosQuiz2Fragment;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -29,18 +33,21 @@ public class Quiz2Activity extends AppCompatActivity implements View.OnClickList
     private final static String COL_BOTON = "#778899";
 
     private TextView tvPregunta, tvNumPregunta;
-    private int puntuacion;
+    private int puntuacionQ2;
     private Button btnOpcion1,btnOpcion2,btnOpcion3,btnOpcion4;
     private DBPref2 mgtDB;
     private ImageView imgFotoPregunta;
     private Stack lisPreguntas = new Stack();
     private Pregunta pregunta;
-    private int numPregunta = 1;
+    private int numPregunta = 1, numAciertos = 0, numFallos = 0;
+    static Bundle bundle = new Bundle();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz2);
+
+        onBackPressed();
 
         tvPregunta = findViewById(R.id.tvPregunta);
         tvNumPregunta = findViewById(R.id.tvNumPreguntasQ2);
@@ -117,8 +124,9 @@ public class Quiz2Activity extends AppCompatActivity implements View.OnClickList
         Button seleccionado = (Button) view;
 
         if (seleccionado.getText().toString().equals(this.pregunta.getRespuesta())) {
-            this.puntuacion++;
+            puntuacionQ2++;
             numPregunta++;
+            numAciertos++;
 
             Iterator iterator = this.lisPreguntas.iterator();
             if (iterator.hasNext()) {
@@ -127,10 +135,29 @@ public class Quiz2Activity extends AppCompatActivity implements View.OnClickList
                 tvNumPregunta.setText("Pregunta: " + numPregunta + " de 4");
 
             }else {
-                this.startActivity(new Intent(Quiz2Activity.this, PrincipalQuizActivity.class));
+                FragmentManager fm = getSupportFragmentManager();
+                FragmentTransaction ft = fm.beginTransaction();
+
+                DatosQuiz2Fragment dq1 = new DatosQuiz2Fragment();
+
+                bundle.putInt("numCorrectasQ2", numAciertos);
+                bundle.putInt("numIncorrectasQ2", numFallos);
+                bundle.putInt("puntuacionQ2", puntuacionQ2);
+                bundle.putInt("numPreguntasQ2", numPregunta);
+
+                dq1.setArguments(bundle);
+
+                //Informacion que quiero transmitir al fragment
+                Bundle argumentos = new Bundle();
+
+                ft.add(R.id.f1ContenedorQ2, dq1);
+                ft.addToBackStack(null);
+                ft.commit();
             }
         }else {
-            numPregunta--;
+            numPregunta++;
+            puntuacionQ2--;
+            numFallos++;
 
             Iterator iterator = this.lisPreguntas.iterator();
             if (iterator.hasNext()) {
@@ -139,8 +166,29 @@ public class Quiz2Activity extends AppCompatActivity implements View.OnClickList
                 tvNumPregunta.setText("Pregunta: " + numPregunta + " de 4");
 
             }else {
-                this.startActivity(new Intent(Quiz2Activity.this, PrincipalQuizActivity.class));
+                FragmentManager fm = getSupportFragmentManager();
+                FragmentTransaction ft = fm.beginTransaction();
+
+                DatosQuiz2Fragment dq1 = new DatosQuiz2Fragment();
+
+                bundle.putInt("numCorrectasQ2", numAciertos);
+                bundle.putInt("numIncorrectasQ2", numFallos);
+                bundle.putInt("puntuacionQ2", puntuacionQ2);
+                bundle.putInt("numPreguntasQ2", numPregunta);
+
+                dq1.setArguments(bundle);
+
+                //Informacion que quiero transmitir al fragment
+                Bundle argumentos = new Bundle();
+
+                ft.add(R.id.f1ContenedorQ2, dq1);
+                ft.addToBackStack(null);
+                ft.commit();
             }
         }
+    }
+
+    @Override public void onBackPressed() {
+        moveTaskToBack(false);
     }
 }

@@ -36,64 +36,6 @@ public class PrincipalActivity extends AppCompatActivity {
         linearLayout = findViewById(R.id.linearLayout);
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-
-        getMenuInflater().inflate(R.menu.menu_principal, menu);
-
-        return super.onCreateOptionsMenu(menu);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-
-        if (item.getItemId() == R.id.itemQuiz){
-
-            Intent i = new Intent(this, PrincipalQuizActivity.class);
-            startActivity(i);
-
-        }else if (item.getItemId() == R.id.itemEditarPerfil){
-
-            Toast.makeText(this, "Se abrira la pagina de desarrolladores", Toast.LENGTH_SHORT).show();
-
-        }else if (item.getItemId() == R.id.itemSalir){
-
-            AlertDialog.Builder dialogo1 = new AlertDialog.Builder(this);
-            dialogo1.setTitle("Salir app");
-            dialogo1.setMessage("¿ Desea salir de la app ?");
-            dialogo1.setCancelable(false);
-            dialogo1.setPositiveButton("Confirmar", new DialogInterface.OnClickListener() {
-                public void onClick(DialogInterface dialogo1, int id) {
-                    finish();
-                }
-            });
-            dialogo1.setNegativeButton("Cancelar", new DialogInterface.OnClickListener() {
-                public void onClick(DialogInterface dialogo1, int id) {
-                    dialogo1.dismiss();
-                }
-            });
-            dialogo1.show();
-
-        }else if (item.getItemId() == R.id.itemDesarrolladores){
-
-            AlertDialog.Builder dialogo1 = new AlertDialog.Builder(this);
-            dialogo1.setTitle("Mantenimiento");
-            dialogo1.setIcon(R.drawable.iconomantenimiento);
-            dialogo1.setMessage(Html.fromHtml("No se puede acceder debido a que está en mantenimiento!!." + "<br><br>" + "Sentimos las molestias"));
-            dialogo1.setCancelable(false);
-            dialogo1.setPositiveButton("Aceptar", new DialogInterface.OnClickListener() {
-                public void onClick(DialogInterface dialogo1, int id) {
-                    Intent i = new Intent(PrincipalActivity.this, PrincipalActivity.class);
-                    startActivity(i);
-                }
-            });
-            dialogo1.show();
-
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
     public void entrarQuizPrincipal(View v){
         Intent entrarQuizPrincipal = new Intent(this, PrincipalQuizActivity.class);
         startActivity(entrarQuizPrincipal);

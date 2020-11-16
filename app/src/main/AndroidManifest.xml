@@ -26,27 +26,31 @@
             android:theme="@style/fullScrean.noActionBar"/>
         <activity
             android:name=".activities.DatosPecesCompletosActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/fullScrean.noActionBar"/>
         <activity
             android:name=".activities.PecesActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activities.DatosReptilesCompletosActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/fullScrean.noActionBar"/>
         <activity
             android:name=".activities.ReptilesActivity"
             android:screenOrientation="portrait"
             android:theme="@style/fullScrean.noActionBar"/>
         <activity
             android:name=".activities.DatosAnfibiosCompletosActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/fullScrean.noActionBar"/>
         <activity
             android:name=".activities.AnfibiosActivity"
             android:screenOrientation="portrait"
             android:theme="@style/fullScrean.noActionBar"/>
         <activity
             android:name=".activities.DatosAvesCompletosActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/fullScrean.noActionBar"/>
         <activity
             android:name=".activities.AvesActivity"
             android:screenOrientation="portrait"

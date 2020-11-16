@@ -6,10 +6,12 @@ import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 
+import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.example.animalquiz.PrincipalQuizActivity;
@@ -26,6 +28,7 @@ public class DatosQuiz1Fragment extends Fragment {
     private int numPreguntas;
     private TextView tvPuntuacion, tvCorrectasF, tvIncorrectasF, tvPreguntasTotales;
     private Button btnContinuarF;
+    private ProgressBar pbCarga;
 
     public DatosQuiz1Fragment() {
         // Required empty public constructor
@@ -52,6 +55,9 @@ public class DatosQuiz1Fragment extends Fragment {
         tvCorrectasF = view.findViewById(R.id.tvAciertos);
         tvIncorrectasF = view.findViewById(R.id.tvFallos);
         tvPreguntasTotales = view.findViewById(R.id.tvPreguntasTotales);
+        pbCarga = view.findViewById(R.id.pbCarga1);
+
+        pbCarga.setVisibility(View.INVISIBLE);
 
         numCorrectas = getArguments().getInt("numCorrectas");
         numIncorrectas = getArguments().getInt("numIncorrectas");
@@ -68,11 +74,24 @@ public class DatosQuiz1Fragment extends Fragment {
         btnContinuarF.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getActivity(), PrincipalQuizActivity.class);
-                startActivity(i);
+                pbCarga.setVisibility(View.VISIBLE);
+                openApp(true);
             }
         });
 
         return view;
+    }
+
+    private void openApp(boolean locationPermission) {
+        Handler handler = new Handler();
+
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+
+                Intent intent = new Intent(getActivity(), PrincipalQuizActivity.class);
+                getActivity().finish();
+            }
+        }, 2000);
     }
 }

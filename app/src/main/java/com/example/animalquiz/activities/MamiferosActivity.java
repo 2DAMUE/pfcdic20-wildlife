@@ -45,7 +45,7 @@ public class MamiferosActivity extends AppCompatActivity {
         ma.asignacionOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int i = rv.indexOfChild(v);
+                int i = rv.getChildAdapterPosition(v);
 
                 //Obtenemos los datos del ave seleccionado.
                 Mamiferos m = datosMamiferos.getListaMamiferos().get(i);

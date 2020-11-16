@@ -29,3 +29,21 @@ VALUES("¿Dónde habita el Lince Ibérico?", "Europa", "Asia", "Amércia del sur
 
 INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `tipo`)
 VALUES("¿Qué animal se alimenta de ratas y ratones?", "Boa Constrictor", "Galápago leproso", "Diablo espinoso", "Mamba negra", 1);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `tipo`)
+VALUES("La mamba negra habita en", "Estepas o sabanas", "En montañas", "En montañas, estepas y sabanas", "Zonas tropicales", 1);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `tipo`)
+VALUES("¿En qué continente se encuentra el Cardenal?", "América del norte", "Oceanía", "Asia", "Europa", 1);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `tipo`)
+VALUES("El Faisán de corona blanca puede llegar a vivir de...", "50 - 60 años", "30 - 50 años", "5 - 15 años", "Ninguna es correcta", 1);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `tipo`)
+VALUES("¿De qué clase es el Tigre de Bengala?", "Mammalia", "Reptil", "Ninguna es correcta", "Anfibio", 1);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `tipo`)
+VALUES("¿Cuál es el promedio de vida de la Carpa Plateada?", "hasta 20 años", "No mas de 10 años", "Entre 5 y 10 años", "Ninguna es correcta", 1);
+
+INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `tipo`)
+VALUES("¿Las pirañas son carnívoras?", "SI", "NO", "Puede ser", "No se sabe", 1);

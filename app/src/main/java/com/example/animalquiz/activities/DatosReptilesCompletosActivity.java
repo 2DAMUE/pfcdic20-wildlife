@@ -67,47 +67,4 @@ public class DatosReptilesCompletosActivity extends AppCompatActivity {
 
         photoViewAttacher = new PhotoViewAttacher(imgFotoAnimalR);
     }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-
-        getMenuInflater().inflate(R.menu.menu_resto, menu);
-
-        return super.onCreateOptionsMenu(menu);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-
-        if (item.getItemId() == R.id.itemHomeResto){
-
-            Intent i = new Intent(this, PrincipalActivity.class);
-            startActivity(i);
-
-        }else if (item.getItemId() == R.id.itemQuizResto){
-
-            Intent i = new Intent(this, PrincipalQuizActivity.class);
-            startActivity(i);
-
-        }else if (item.getItemId() == R.id.itemEditarPerfilResto){
-
-            AlertDialog.Builder dialogo1 = new AlertDialog.Builder(this);
-            dialogo1.setTitle("Salir app");
-            dialogo1.setMessage("¿ Desea salir de la app ?");
-            dialogo1.setCancelable(false);
-            dialogo1.setPositiveButton("Confirmar", new DialogInterface.OnClickListener() {
-                public void onClick(DialogInterface dialogo1, int id) {
-                    finish();
-                }
-            });
-            dialogo1.setNegativeButton("Cancelar", new DialogInterface.OnClickListener() {
-                public void onClick(DialogInterface dialogo1, int id) {
-                    dialogo1.dismiss();
-                }
-            });
-            dialogo1.show();
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
 }

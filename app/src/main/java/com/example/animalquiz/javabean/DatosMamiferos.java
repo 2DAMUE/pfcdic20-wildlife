@@ -45,6 +45,17 @@ public class DatosMamiferos {
 
         listaMamiferos.add(new Mamiferos("Asia","Yak", R.drawable.yak, R.drawable.iconoasia ,"Mammalia", "Macho: 350 - 580 kgs, Hembra: 220 - 260 kgs", "2,5 - 3,3 m", "15 - 25 años", "Se alimentan de plantas bajas",
                 "NO", "Vive en las altiplanicies esteparias y fríos desiertos del Nepal, Tíbet, Pamir y Karakórum, entre los 4000 y 6000 metros de altitud", 7));
+
+        listaMamiferos.add(new Mamiferos("América del Sur","Jaguar", R.drawable.jaguar, R.drawable.iconoamericasur ,"Mammalia", "de 45 a más de 150 kg", "1 - 70 a 2 - 30 m", "12 – 15 años (En libertad)", "Se alimentan de peces, tortugas e incluso Caimanes",
+                "SI", "Habita desde lugares casi desérticos como el Desierto de Arizona o el altiplano mexicano hasta selvas tropicales como el Amazonas.", 7));
+
+        listaMamiferos.add(new Mamiferos("Asia","Tigre de Bengala", R.drawable.tigrebengala, R.drawable.iconoasia ,"Mammalia", "180 - 250 kgs", "Macho: 270-310 cm(adulto), Hembra: 240-265 cm(adulto)", "12 – 15 años (En libertad)", "Animal carnívoro, su dieta es bastante variada" +
+                " pero se suele alimentar de grandes Ungulados, jabalíes(con frecuencia) y entre presas de pequeño tamaño se encuentran: las liebres. puercoespines y los pavos reales",
+                "SI", "Casi un tercio de la población mundial de estos grandes felinos habita en la India y Bangladés.Habitan en los parques nacionales de estos países como 'Sundarbans' y 'Ranthambore'", 7));
+
+        listaMamiferos.add(new Mamiferos("Europa","Oso pardo", R.drawable.osopardo, R.drawable.iconoeuropa ,"Mammalia", "Macho: Alrededor de los 450 kgs, Hembra: Alrededor de los 250 kgs", "1,5 - 3 metros", "Viven una media de 25 años en estado salvaje", "Es un animal omnívoro con predominio vegetal, su alimento preferido son los panales de miel pero cuando aparecen los salmones" +
+                " en los ríos se convierten en perscadores",
+                "SI", "Habita desde lugares casi desérticos como el Desierto de Arizona o el altiplano mexicano hasta selvas tropicales como el Amazonas.", 7));
     }
 
     public ArrayList<Mamiferos> getListaMamiferos(){

@@ -34,7 +34,6 @@ public class AvesActivity extends AppCompatActivity {
         final DatosAves datosAves = new DatosAves();
 
         rv = findViewById(R.id.rvAves);
-        rv.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL));
 
         aa = new AvesAdapter(datosAves.getListaAves());
 
@@ -46,7 +45,7 @@ public class AvesActivity extends AppCompatActivity {
         aa.asignacionOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int i = rv.indexOfChild(v);
+                int i = rv.getChildAdapterPosition(v);
 
                 Aves a = datosAves.getListaAves().get(i);
 

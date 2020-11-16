@@ -8,31 +8,44 @@
     android:background="@android:color/holo_blue_light">
 
     <TextView
-        android:id="@+id/tvPregunta"
+        android:id="@+id/tvNumPreguntasQ3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pregunta 1 de 3"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/tvPregunta3"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:text="PREGUNTA"
         android:textColor="@android:color/white"
         android:textSize="24sp"
         android:textStyle="bold"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.041" />
+        app:layout_constraintVertical_bias="0.145" />
 
     <LinearLayout
         android:id="@+id/lytAudio"
         android:layout_width="fill_parent"
         android:layout_height="64dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.178">
+        app:layout_constraintVertical_bias="0.347">
 
         <ImageButton
             android:id="@+id/boton_play"
@@ -47,6 +60,7 @@
             android:id="@+id/boton_pause"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
             android:layout_marginBottom="3dp"
             android:background="@null"
             android:onClick="pause"
@@ -63,8 +77,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.675">
+        app:layout_constraintTop_toBottomOf="@+id/lytAudio"
+        app:layout_constraintVertical_bias="0.436">
 
         <Button
             android:id="@+id/btnOpcion1"
@@ -110,6 +124,18 @@
             android:textStyle="bold" />
 
     </LinearLayout>
+
+    <FrameLayout
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:id="@+id/f1ContenedorQ3"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.406" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

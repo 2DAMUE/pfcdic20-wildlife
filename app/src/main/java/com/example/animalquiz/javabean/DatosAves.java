@@ -78,6 +78,18 @@ public class DatosAves {
         listaAves.add(new Aves("África","Prueba pajaro 4", R.drawable.pajarosecretario, R.drawable.iconoafrica ,"da igual 4",
                 "8 - 10 kgs", "1,6 m y 2,4 m con las alas extendidas", "50 - 60 años (Se la conoce como la grulla inmortal)", "Ratones, ranas e insectos grandes, y también semillas y hojas",
                 "NO", "Se encuentra en Asia. Vive en praderas y altos valles con áreas pantanosas"));
+
+        listaAves.add(new Aves("África","Prueba pajaro 5", R.drawable.pajarosecretario, R.drawable.iconoafrica ,"da igual 5",
+                "8 - 10 kgs", "1,6 m y 2,4 m con las alas extendidas", "50 - 60 años (Se la conoce como la grulla inmortal)", "Ratones, ranas e insectos grandes, y también semillas y hojas",
+                "NO", "Se encuentra en Asia. Vive en praderas y altos valles con áreas pantanosas"));
+
+        listaAves.add(new Aves("África","Prueba pajaro 6", R.drawable.pajarosecretario, R.drawable.iconoafrica ,"da igual 6",
+                "8 - 10 kgs", "1,6 m y 2,4 m con las alas extendidas", "50 - 60 años (Se la conoce como la grulla inmortal)", "Ratones, ranas e insectos grandes, y también semillas y hojas",
+                "NO", "Se encuentra en Asia. Vive en praderas y altos valles con áreas pantanosas"));
+
+        listaAves.add(new Aves("África","Prueba pajaro 7", R.drawable.pajarosecretario, R.drawable.iconoafrica ,"da igual 7",
+                "8 - 10 kgs", "1,6 m y 2,4 m con las alas extendidas", "50 - 60 años (Se la conoce como la grulla inmortal)", "Ratones, ranas e insectos grandes, y también semillas y hojas",
+                "NO", "Se encuentra en Asia. Vive en praderas y altos valles con áreas pantanosas"));
     }
 
     public ArrayList<Aves> getListaAves(){

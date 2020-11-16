@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -25,9 +26,11 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Stack;
 
+import static android.view.KeyEvent.KEYCODE_BACK;
+
 public class Quiz1Activity extends AppCompatActivity implements View.OnClickListener{
 
-    public final static int NUM_PREGUNTA = 4;
+    public final static int NUM_PREGUNTA = 10;
     private final static String COL_BOTON = "#778899";
 
     private TextView tvPregunta, tvNumPregunta;
@@ -53,6 +56,8 @@ public class Quiz1Activity extends AppCompatActivity implements View.OnClickList
 
         this.mgtDB = new DBPref(this);
 
+        onBackPressed();
+
         Cursor preguntas = this.mgtDB.getPreguntas(DBPref.Categoria.CINE, DBPref.Dificultad.FACIL, Quiz1Activity.NUM_PREGUNTA);
 
         if (preguntas.moveToFirst()) {
@@ -62,7 +67,7 @@ public class Quiz1Activity extends AppCompatActivity implements View.OnClickList
                 String sonido = preguntas.getString(preguntas.getColumnIndex("sonido"));
                 String rtaCorrecta = preguntas.getString(preguntas.getColumnIndex("rtaCorrecta"));
                 int tipo = preguntas.getInt(preguntas.getColumnIndex("tipo"));
-                this.tvNumPregunta.setText("Pregunta: " + numPregunta + " de 4");
+                this.tvNumPregunta.setText("Pregunta: " + numPregunta + " de 5");
 
                 ArrayList<String> rtaIncorrectas = new ArrayList();
                 rtaIncorrectas.add(preguntas.getString(preguntas.getColumnIndex("rtaIncorrecta1")));
@@ -122,12 +127,13 @@ public class Quiz1Activity extends AppCompatActivity implements View.OnClickList
             this.puntuacion++;
             contCorrectas = contCorrectas + 1;
             numPregunta++;
+            onBackPressed();
 
             Iterator iterator = this.lisPreguntas.iterator();
             if (iterator.hasNext()) {
                 Toast.makeText(this, "¡CORRECTO!", Toast.LENGTH_SHORT).show();
                 this.setPregunta((Pregunta) this.lisPreguntas.pop());
-                this.tvNumPregunta.setText("Pregunta: " + numPregunta + " de 4");
+                this.tvNumPregunta.setText("Pregunta: " + numPregunta + " de 5");
             }else {
 
                 this.btnOpcion1.setEnabled(false);
@@ -161,7 +167,7 @@ public class Quiz1Activity extends AppCompatActivity implements View.OnClickList
             if (iterator.hasNext()) {
                 Toast.makeText(this, "¡INCORRECTO!", Toast.LENGTH_SHORT).show();
                 this.setPregunta((Pregunta) this.lisPreguntas.pop());
-                this.tvNumPregunta.setText("Pregunta: " + numPregunta + " de 4");
+                this.tvNumPregunta.setText("Pregunta: " + numPregunta + " de 5");
 
             }else {
 
@@ -190,5 +196,9 @@ public class Quiz1Activity extends AppCompatActivity implements View.OnClickList
                 ft.commit();
             }
         }
+    }
+
+    @Override public void onBackPressed() {
+        moveTaskToBack(false);
     }
 }
