@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.DatosQuiz1Fragment"
-    android:background="@android:color/holo_blue_dark">
+    tools:context=".fragments.DatosQuiz2Fragment"
+    android:background="#E9C305">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -16,27 +16,30 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Datos del Quiz 1"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:textSize="30sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.064" />
-
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.233"
-            android:background="@drawable/iconodatos"/>
+            app:layout_constraintVertical_bias="0.023" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/iconodatos"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.125" />
 
         <LinearLayout
+            android:id="@+id/linearLayout5"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -46,14 +49,14 @@
             app:layout_constraintHorizontal_bias="0.495"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.621">
+            app:layout_constraintVertical_bias="0.415">
 
             <TextView
-                android:id="@+id/tvPreguntasTotales"
+                android:id="@+id/tvPreguntasTotales1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Preguntas totales: "
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -64,12 +67,12 @@
                 app:layout_constraintVertical_bias="0.433" />
 
             <TextView
-                android:id="@+id/tvAciertos"
+                android:id="@+id/tvAciertos1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Has acertado: "
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -80,12 +83,12 @@
                 app:layout_constraintVertical_bias="0.512" />
 
             <TextView
-                android:id="@+id/tvFallos"
+                android:id="@+id/tvFallos1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Has fallado: "
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -96,12 +99,12 @@
                 app:layout_constraintVertical_bias="0.605" />
 
             <TextView
-                android:id="@+id/tvPuntuacion"
+                android:id="@+id/tvPuntuacion1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="Puntos totales: "
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -122,7 +125,7 @@
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.951" />
+            app:layout_constraintVertical_bias="0.976" />
 
         <ProgressBar
             android:id="@+id/pbCarga1"
@@ -133,7 +136,24 @@
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.821" />
+            app:layout_constraintVertical_bias="0.869" />
+
+        <TextView
+            android:id="@+id/tvFraseQuiz1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Podrías hacerlo mejor"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/pbCarga1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.92" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

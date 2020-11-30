@@ -3,16 +3,16 @@ package com.example.animalquiz.fragments;
 
 import android.content.Intent;
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-
 import android.os.Handler;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+
+import androidx.fragment.app.Fragment;
 
 import com.example.animalquiz.PrincipalQuizActivity;
 import com.example.animalquiz.R;
@@ -26,7 +26,7 @@ public class DatosQuiz1Fragment extends Fragment {
     private int numIncorrectas;
     private int puntuacion;
     private int numPreguntas;
-    private TextView tvPuntuacion, tvCorrectasF, tvIncorrectasF, tvPreguntasTotales;
+    private TextView tvPuntuacion, tvCorrectasF, tvIncorrectasF, tvPreguntasTotales, tvFraseQ1;
     private Button btnContinuarF;
     private ProgressBar pbCarga;
 
@@ -34,42 +34,35 @@ public class DatosQuiz1Fragment extends Fragment {
         // Required empty public constructor
     }
 
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
-        if (getArguments() != null){
-            numCorrectas = getArguments().getInt("numCorrectas");
-            numIncorrectas = getArguments().getInt("numIncorrectas");
-            puntuacion = getArguments().getInt("puntuacion");
-            numPreguntas = getArguments().getInt("numPreguntas");
-        }
-    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_datos_quiz1, container, false);
 
-        tvPuntuacion = view.findViewById(R.id.tvPuntuacion);
+        tvPuntuacion = view.findViewById(R.id.tvPuntuacion1);
         btnContinuarF = view.findViewById(R.id.btnContinuarF);
-        tvCorrectasF = view.findViewById(R.id.tvAciertos);
-        tvIncorrectasF = view.findViewById(R.id.tvFallos);
-        tvPreguntasTotales = view.findViewById(R.id.tvPreguntasTotales);
+        tvCorrectasF = view.findViewById(R.id.tvAciertos1);
+        tvIncorrectasF = view.findViewById(R.id.tvFallos1);
+        tvFraseQ1 = view.findViewById(R.id.tvFraseQuiz1);
+        tvPreguntasTotales = view.findViewById(R.id.tvPreguntasTotales1);
         pbCarga = view.findViewById(R.id.pbCarga1);
 
-        pbCarga.setVisibility(View.INVISIBLE);
+        numCorrectas = getArguments().getInt("numCorrectasQ1");
+        numIncorrectas = getArguments().getInt("numIncorrectasQ1");
+        puntuacion = getArguments().getInt("puntuacionQ1");
+        numPreguntas = getArguments().getInt("numPreguntasQ1");
 
-        numCorrectas = getArguments().getInt("numCorrectas");
-        numIncorrectas = getArguments().getInt("numIncorrectas");
-        puntuacion = getArguments().getInt("puntuacion");
-        numPreguntas = getArguments().getInt("numPreguntas");
+        pbCarga.setVisibility(View.GONE);
 
-        numPreguntas = numPreguntas -1;
+        numPreguntas = numPreguntas - 1;
 
         tvPuntuacion.setText("Puntos totales: " + numCorrectas);
         tvCorrectasF.setText("Has acertado: " + numCorrectas + " preguntas");
         tvIncorrectasF.setText("Has fallado: " + numIncorrectas + " preguntas");
         tvPreguntasTotales.setText("Preguntas realizadas: " + numPreguntas);
+
+        seleccionarMensaje(puntuacion);
 
         btnContinuarF.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -93,5 +86,16 @@ public class DatosQuiz1Fragment extends Fragment {
                 getActivity().finish();
             }
         }, 2000);
+    }
+
+    public void seleccionarMensaje(int puntuacion){
+        if (puntuacion < 5){
+            tvFraseQ1.setText(Html.fromHtml("<font color=red>¡Has tenido bastantes fallos, pero siempre puedes volver a intentarlo!</font>"));
+
+        }else if (puntuacion >= 5 && puntuacion <= 9){
+            tvFraseQ1.setText("Muy bien, has acertado casi todas las preguntas");
+        }else if (puntuacion == 10){
+            tvFraseQ1.setText("Enhorabuena, has bordado el Test 1");
+        }
     }
 }

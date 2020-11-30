@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".activityQuiz1.Quiz1Activity"
     android:background="@android:color/holo_blue_light"
-    android:padding="5dp">
+    android:padding="10dp">
 
     <TextView
         android:id="@+id/tvNumPregunta"
@@ -23,7 +23,7 @@
 
     <TextView
         android:id="@+id/tvPregunta"
-        android:layout_width="350dp"
+        android:layout_width="340dp"
         android:layout_height="wrap_content"
         android:text="PREGUNTA"
         android:textAlignment="center"
@@ -95,16 +95,20 @@
 
     </LinearLayout>
 
-    <FrameLayout
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:id="@+id/f1Contenedor"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="480dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.406" />
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/f1ContenedorQ1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.406"/>
+
+    </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -8,7 +8,7 @@
     <TextView
         android:id="@+id/tv_nom_reptiles"
         android:layout_width="300dp"
-        android:background="@drawable/bordes1"
+        android:background="@drawable/bordes"
         android:layout_gravity="center"
         android:layout_height="wrap_content"
         android:textColor="@android:color/black"

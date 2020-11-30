@@ -5,13 +5,16 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Color;
+import android.os.Build;
 import android.os.Bundle;
-import android.view.KeyEvent;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
+import android.widget.FrameLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
@@ -21,12 +24,11 @@ import com.example.animalquiz.R;
 import com.example.animalquiz.dbQuiz1.DBPref;
 import com.example.animalquiz.dbQuiz1.Pregunta;
 import com.example.animalquiz.fragments.DatosQuiz1Fragment;
+import com.example.animalquiz.fragments.DatosQuiz2Fragment;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Stack;
-
-import static android.view.KeyEvent.KEYCODE_BACK;
 
 public class Quiz1Activity extends AppCompatActivity implements View.OnClickListener{
 
@@ -39,8 +41,12 @@ public class Quiz1Activity extends AppCompatActivity implements View.OnClickList
     private DBPref mgtDB;
     private Stack lisPreguntas = new Stack();
     private Pregunta pregunta;
-    private int numPregunta = 1, contCorrectas = 0, contIncorrectas = 0;
+    private int numPreguntaQ1 = 1, contCorrectas = 0, contIncorrectas = 0;
     static Bundle bundle = new Bundle();
+
+    private TextView tvAciertos, tvFallos, tvPuntuacion, tvNumPreguntas;
+
+    private FrameLayout fl1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,6 +59,13 @@ public class Quiz1Activity extends AppCompatActivity implements View.OnClickList
         btnOpcion2 = findViewById(R.id.btnOpcion2);
         btnOpcion3 = findViewById(R.id.btnOpcion3);
         btnOpcion4 = findViewById(R.id.btnOpcion4);
+
+        tvAciertos = findViewById(R.id.tvAciertos1);
+        tvFallos = findViewById(R.id.tvFallos1);
+        tvNumPreguntas = findViewById(R.id.tvPreguntasTotales1);
+        tvPuntuacion = findViewById(R.id.tvPuntuacion1);
+
+        fl1 = findViewById(R.id.f1ContenedorQ1);
 
         this.mgtDB = new DBPref(this);
 
@@ -67,7 +80,7 @@ public class Quiz1Activity extends AppCompatActivity implements View.OnClickList
                 String sonido = preguntas.getString(preguntas.getColumnIndex("sonido"));
                 String rtaCorrecta = preguntas.getString(preguntas.getColumnIndex("rtaCorrecta"));
                 int tipo = preguntas.getInt(preguntas.getColumnIndex("tipo"));
-                this.tvNumPregunta.setText("Pregunta: " + numPregunta + " de 5");
+                this.tvNumPregunta.setText("Pregunta: " + numPreguntaQ1 + " de 5");
 
                 ArrayList<String> rtaIncorrectas = new ArrayList();
                 rtaIncorrectas.add(preguntas.getString(preguntas.getColumnIndex("rtaIncorrecta1")));
@@ -120,21 +133,25 @@ public class Quiz1Activity extends AppCompatActivity implements View.OnClickList
         this.btnOpcion4.setTextSize(tamanho);
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
     public void onClick(View view) {
         Button seleccionado = (Button) view;
 
         if (seleccionado.getText().toString().equals(this.pregunta.getRespuesta())) {
             this.puntuacion++;
             contCorrectas = contCorrectas + 1;
-            numPregunta++;
+            numPreguntaQ1++;
             onBackPressed();
 
             Iterator iterator = this.lisPreguntas.iterator();
             if (iterator.hasNext()) {
                 Toast.makeText(this, "¡CORRECTO!", Toast.LENGTH_SHORT).show();
                 this.setPregunta((Pregunta) this.lisPreguntas.pop());
-                this.tvNumPregunta.setText("Pregunta: " + numPregunta + " de 5");
+                this.tvNumPregunta.setText("Pregunta: " + numPreguntaQ1 + " de 5");
+                fl1.setVisibility(View.GONE);
             }else {
+
+                fl1.setVisibility(View.VISIBLE);
 
                 this.btnOpcion1.setEnabled(false);
                 this.btnOpcion2.setEnabled(false);
@@ -146,52 +163,57 @@ public class Quiz1Activity extends AppCompatActivity implements View.OnClickList
 
                 DatosQuiz1Fragment dq1 = new DatosQuiz1Fragment();
 
-                bundle.putInt("numCorrectas", contCorrectas);
-                bundle.putInt("numIncorrectas", contIncorrectas);
-                bundle.putInt("puntuacion", puntuacion);
-                bundle.putInt("numPreguntas", numPregunta);
-
-                //Informacion que quiero transmitir al fragment
-                dq1.setArguments(bundle);
-
-                ft.add(R.id.f1Contenedor, dq1);
-                ft.addToBackStack(null);
-                ft.commit();
-            }
-        }else {
-            contIncorrectas = contIncorrectas + 1;
-            puntuacion = puntuacion - 1;
-            numPregunta++;
-
-            Iterator iterator = this.lisPreguntas.iterator();
-            if (iterator.hasNext()) {
-                Toast.makeText(this, "¡INCORRECTO!", Toast.LENGTH_SHORT).show();
-                this.setPregunta((Pregunta) this.lisPreguntas.pop());
-                this.tvNumPregunta.setText("Pregunta: " + numPregunta + " de 5");
-
-            }else {
-
-                this.btnOpcion1.setEnabled(false);
-                this.btnOpcion2.setEnabled(false);
-                this.btnOpcion3.setEnabled(false);
-                this.btnOpcion4.setEnabled(false);
-
-                FragmentManager fm = getSupportFragmentManager();
-                FragmentTransaction ft = fm.beginTransaction();
-
-                DatosQuiz1Fragment dq1 = new DatosQuiz1Fragment();
-
-                bundle.putInt("numCorrectas", contCorrectas);
-                bundle.putInt("numIncorrectas", contIncorrectas);
-                bundle.putInt("puntuacion", puntuacion);
-                bundle.putInt("numPreguntas", numPregunta);
+                bundle.putInt("numCorrectasQ1", contCorrectas);
+                bundle.putInt("numIncorrectasQ1", contIncorrectas);
+                bundle.putInt("puntuacionQ1", puntuacion);
+                bundle.putInt("numPreguntasQ1", numPreguntaQ1);
 
                 dq1.setArguments(bundle);
 
                 //Informacion que quiero transmitir al fragment
                 Bundle argumentos = new Bundle();
 
-                ft.add(R.id.f1Contenedor, dq1);
+                ft.add(R.id.f1ContenedorQ1, dq1);
+                ft.addToBackStack(null);
+                ft.commit();
+            }
+        }else {
+            contIncorrectas = contIncorrectas + 1;
+            puntuacion = puntuacion - 1;
+            numPreguntaQ1++;
+
+            Iterator iterator = this.lisPreguntas.iterator();
+            if (iterator.hasNext()) {
+                Toast.makeText(this, "¡INCORRECTO!", Toast.LENGTH_SHORT).show();
+                this.setPregunta((Pregunta) this.lisPreguntas.pop());
+                this.tvNumPregunta.setText("Pregunta: " + numPreguntaQ1 + " de 5");
+                fl1.setVisibility(View.GONE);
+
+            }else {
+
+                fl1.setVisibility(View.VISIBLE);
+
+                this.btnOpcion1.setEnabled(false);
+                this.btnOpcion2.setEnabled(false);
+                this.btnOpcion3.setEnabled(false);
+                this.btnOpcion4.setEnabled(false);
+
+                FragmentManager fm = getSupportFragmentManager();
+                FragmentTransaction ft = fm.beginTransaction();
+
+                DatosQuiz1Fragment dq1 = new DatosQuiz1Fragment();
+
+                bundle.putInt("numCorrectasQ1", contCorrectas);
+                bundle.putInt("numIncorrectasQ1", contIncorrectas);
+                bundle.putInt("puntuacionQ1", puntuacion);
+                bundle.putInt("numPreguntasQ1", numPreguntaQ1);
+
+                dq1.setArguments(bundle);
+
+                //Informacion que quiero transmitir al fragment
+                Bundle argumentos = new Bundle();
+
+                ft.add(R.id.f1ContenedorQ1, dq1);
                 ft.addToBackStack(null);
                 ft.commit();
             }
@@ -201,4 +223,5 @@ public class Quiz1Activity extends AppCompatActivity implements View.OnClickList
     @Override public void onBackPressed() {
         moveTaskToBack(false);
     }
+
 }

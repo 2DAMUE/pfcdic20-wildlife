@@ -6,7 +6,7 @@
     <item
         android:id="@+id/itemQuiz"
         android:icon="@drawable/iconoquiz"
-        android:title="Quiz"
+        android:title="Página principal Quiz"
         app:showAsAction="always"/>
     <item
         android:id="@+id/itemEditarPerfil"
@@ -17,7 +17,8 @@
         android:id="@+id/itemDesarrolladores"
         android:icon="@drawable/iconodesarrolladores"
         android:title="Desarrolladores"
-        app:showAsAction="always" />
+        app:showAsAction="always"/>
+
     <item
         android:id="@+id/itemSalir"
         android:icon="@drawable/iconosalir"

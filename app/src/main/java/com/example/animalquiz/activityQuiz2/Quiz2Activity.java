@@ -1,8 +1,5 @@
 package com.example.animalquiz.activityQuiz2;
 
-import android.app.AlertDialog;
-import android.content.DialogInterface;
-import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -16,11 +13,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.example.animalquiz.PrincipalQuizActivity;
 import com.example.animalquiz.R;
 import com.example.animalquiz.dbQuiz1.Pregunta;
 import com.example.animalquiz.dbQuiz2.DBPref2;
-import com.example.animalquiz.fragments.DatosQuiz1Fragment;
 import com.example.animalquiz.fragments.DatosQuiz2Fragment;
 
 import java.util.ArrayList;
