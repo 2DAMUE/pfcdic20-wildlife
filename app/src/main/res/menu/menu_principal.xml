@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    >
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemHome"
+        android:icon="@drawable/iconoprincipal"
+        android:title="HOME"
+        app:showAsAction="always"
+        android:iconTint="#C09C00"
+        android:iconTintMode="src_in"/>
 
     <item
         android:id="@+id/itemQuiz"
         android:icon="@drawable/iconoquiz"
         android:title="Página principal Quiz"
         app:showAsAction="always"/>
-    <item
-        android:id="@+id/itemEditarPerfil"
-        android:icon="@drawable/iconoeditarperfil"
-        android:title="Editar Perfil"
-        app:showAsAction="always" />
+
     <item
         android:id="@+id/itemDesarrolladores"
         android:icon="@drawable/iconodesarrolladores"

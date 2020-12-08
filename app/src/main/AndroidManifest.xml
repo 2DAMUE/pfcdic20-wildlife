@@ -63,6 +63,7 @@
             android:theme="@style/fullScrean.noActionBar" />
         <activity
             android:name=".activities.DatosMamiferosCompletosActivity"
+            android:theme="@style/fullScrean.noActionBar"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activities.MamiferosActivity"

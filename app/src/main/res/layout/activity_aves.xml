@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".activities.AvesActivity"
-    android:background="#FFC90E"
     android:id="@+id/drawerAves"
     tools:openDrawer="start"
     android:fitsSystemWindows="true">
@@ -19,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/navigationView"
-        app:menu="@menu/menu_aves"
+        app:menu="@menu/menu_all"
         app:headerLayout="@layout/drawer_header"
         android:layout_gravity="start"/>
 

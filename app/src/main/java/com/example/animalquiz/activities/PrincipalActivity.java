@@ -43,8 +43,6 @@ public class PrincipalActivity extends AppCompatActivity implements NavigationVi
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_principal);
 
-        linearLayout = findViewById(R.id.linearLayout);
-
         toolbar = findViewById(R.id.toolbarPrincipal);
         drawerLayout = findViewById(R.id.drawer);
         navigationView = findViewById(R.id.navigationView);
@@ -104,9 +102,39 @@ public class PrincipalActivity extends AppCompatActivity implements NavigationVi
                 startActivity(i);
                 drawerLayout.closeDrawers();
                 break;
+            case R.id.itemHome:
+                Intent home = new Intent(this, PrincipalActivity.class);
+                startActivity(home);
+                drawerLayout.closeDrawers();
+                break;
             case R.id.itemDesarrolladores:
                 Intent desarrolladores = new Intent(this, DesarrolladoresActivity.class);
                 startActivity(desarrolladores);
+                drawerLayout.closeDrawers();
+                break;
+            case R.id.itemMamiferos:
+                Intent mamiferos = new Intent(this, MamiferosActivity.class);
+                startActivity(mamiferos);
+                drawerLayout.closeDrawers();
+                break;
+            case R.id.itemAves:
+                Intent aves = new Intent(this, AvesActivity.class);
+                startActivity(aves);
+                drawerLayout.closeDrawers();
+                break;
+            case R.id.itemAnfibios:
+                Intent anfibios = new Intent(this, AnfibiosActivity.class);
+                startActivity(anfibios);
+                drawerLayout.closeDrawers();
+                break;
+            case R.id.itemReptiles:
+                Intent reptiles = new Intent(this, ReptilesActivity.class);
+                startActivity(reptiles);
+                drawerLayout.closeDrawers();
+                break;
+            case R.id.itemPeces:
+                Intent peces = new Intent(this, PecesActivity.class);
+                startActivity(peces);
                 drawerLayout.closeDrawers();
                 break;
             case R.id.itemSalir:

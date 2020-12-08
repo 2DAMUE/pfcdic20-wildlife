@@ -92,40 +92,47 @@ public class ReptilesActivity extends AppCompatActivity implements NavigationVie
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
 
         switch (menuItem.getItemId()){
-            case R.id.itemHomeR:
-                Intent i = new Intent(this, PrincipalActivity.class);
+            case R.id.itemQuiz:
+                Intent i = new Intent(this, PrincipalQuizActivity.class);
                 startActivity(i);
                 drawerLayout.closeDrawers();
                 break;
-            case R.id.itemEditarPerfilR:
-                Toast.makeText(this, "Editar perfil", Toast.LENGTH_SHORT).show();
+            case R.id.itemHome:
+                Intent home = new Intent(this, PrincipalActivity.class);
+                startActivity(home);
                 drawerLayout.closeDrawers();
                 break;
-            case R.id.itemDesarrolladoresR:
-                Toast.makeText(this, "Desarrolladores", Toast.LENGTH_SHORT).show();
+            case R.id.itemDesarrolladores:
+                Intent desarrolladores = new Intent(this, DesarrolladoresActivity.class);
+                startActivity(desarrolladores);
                 drawerLayout.closeDrawers();
                 break;
-            case R.id.itemAvesR:
+            case R.id.itemMamiferos:
+                Intent mamiferos = new Intent(this, MamiferosActivity.class);
+                startActivity(mamiferos);
+                drawerLayout.closeDrawers();
+                break;
+            case R.id.itemAves:
                 Intent aves = new Intent(this, AvesActivity.class);
                 startActivity(aves);
                 drawerLayout.closeDrawers();
                 break;
-            case R.id.itemAnfibiosR:
+            case R.id.itemAnfibios:
                 Intent anfibios = new Intent(this, AnfibiosActivity.class);
                 startActivity(anfibios);
                 drawerLayout.closeDrawers();
                 break;
-            case R.id.itemMamiferosR:
+            case R.id.itemReptiles:
                 Intent reptiles = new Intent(this, ReptilesActivity.class);
                 startActivity(reptiles);
                 drawerLayout.closeDrawers();
                 break;
-            case R.id.itemPecesR:
+            case R.id.itemPeces:
                 Intent peces = new Intent(this, PecesActivity.class);
                 startActivity(peces);
                 drawerLayout.closeDrawers();
                 break;
-            case R.id.itemSalirR:
+            case R.id.itemSalir:
                 AlertDialog.Builder dialogo1 = new AlertDialog.Builder(this);
                 dialogo1.setTitle("Confirmacion salida");
                 dialogo1.setMessage("¿Desea salir de la aplicación?");
@@ -142,6 +149,7 @@ public class ReptilesActivity extends AppCompatActivity implements NavigationVie
                     }
                 });
                 dialogo1.show();
+                drawerLayout.closeDrawers();
                 break;
         }
 

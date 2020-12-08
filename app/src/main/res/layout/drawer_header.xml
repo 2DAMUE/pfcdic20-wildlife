@@ -8,20 +8,13 @@
     android:gravity="bottom"
     android:padding="20dp">
 
-    <ImageView
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:src="@drawable/iconoprincipal"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="-110dp"/>
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Animal Quiz"
-        android:textSize="24sp"
+        android:textSize="34sp"
         app:fontFamily="@font/aclonica"
-        android:gravity="center"
-        android:layout_marginLeft="40dp"/>
+        android:layout_gravity="center"
+        android:layout_marginBottom="55dp"/>
 
 </LinearLayout>

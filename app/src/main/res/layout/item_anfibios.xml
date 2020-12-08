@@ -1,17 +1,16 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="10dp"
-    android:background="#FFC90E">
+    android:padding="5dp">
 
     <TextView
         android:id="@+id/tv_nom_anfibios"
-        android:layout_width="300dp"
+        android:layout_width="320dp"
         android:background="@drawable/bordes"
         android:layout_gravity="center"
         android:layout_height="30dp"
         android:textColor="@android:color/black"
-        android:textSize="20sp"
+        android:textSize="25sp"
         android:textAlignment="center"/>
 
 </LinearLayout>

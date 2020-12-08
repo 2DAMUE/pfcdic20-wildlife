@@ -7,7 +7,6 @@
     android:layout_height="match_parent"
     android:id="@+id/drawerReptiles"
     tools:context=".activities.MamiferosActivity"
-    android:background="#FFC90E"
     tools:openDrawer="start"
     android:fitsSystemWindows="true">
 
@@ -20,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/navigationView"
-        app:menu="@menu/menu_reptiles"
+        app:menu="@menu/menu_all"
         app:headerLayout="@layout/drawer_header"
         android:layout_gravity="start"/>
 
