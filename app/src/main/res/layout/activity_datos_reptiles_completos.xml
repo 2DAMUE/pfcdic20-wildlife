@@ -81,7 +81,7 @@
 
             <TextView
                 android:id="@+id/tvClaseR"
-                android:layout_width="310dp"
+                android:layout_width="match_parent"
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -96,10 +96,10 @@
 
             <TextView
                 android:id="@+id/tvPesoAdultoR"
-                android:layout_width="310dp"
+                android:layout_width="match_parent"
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/bordes"
                 android:paddingLeft="5dp"
                 android:textColor="@android:color/black"
@@ -113,10 +113,10 @@
 
             <TextView
                 android:id="@+id/tvLongitudAdultoR"
-                android:layout_width="310dp"
+                android:layout_width="match_parent"
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/bordes"
                 android:paddingLeft="5dp"
                 android:textColor="@android:color/black"
@@ -127,10 +127,10 @@
 
             <TextView
                 android:id="@+id/tvPromedioVidaR"
-                android:layout_width="310dp"
+                android:layout_width="match_parent"
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/bordes"
                 android:paddingLeft="5dp"
                 android:textColor="@android:color/black"
@@ -142,10 +142,10 @@
 
             <TextView
                 android:id="@+id/tvAlimentacionR"
-                android:layout_width="310dp"
+                android:layout_width="match_parent"
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/bordes"
                 android:paddingLeft="5dp"
                 android:textColor="@android:color/black"
@@ -157,10 +157,10 @@
 
             <TextView
                 android:id="@+id/tvPeligrosoR"
-                android:layout_width="310dp"
+                android:layout_width="match_parent"
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/bordes"
                 android:paddingLeft="5dp"
                 android:textColor="@android:color/black"
@@ -172,10 +172,10 @@
 
             <TextView
                 android:id="@+id/tvDondeViveR"
-                android:layout_width="310dp"
+                android:layout_width="match_parent"
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/bordes"
                 android:paddingLeft="5dp"
                 android:textColor="@android:color/black"
@@ -187,10 +187,10 @@
 
             <TextView
                 android:id="@+id/tvContinenteR"
-                android:layout_width="310dp"
+                android:layout_width="match_parent"
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/bordes"
                 android:paddingLeft="5dp"
                 android:textColor="@android:color/black"

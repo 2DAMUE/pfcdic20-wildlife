@@ -120,7 +120,7 @@ public class Quiz1Activity extends AppCompatActivity implements View.OnClickList
     }
 
     public void modColTamTexto(boolean color, int tamanho) {
-        if (color) {
+        /*if (color) {
             this.btnOpcion1.setBackgroundColor(Color.parseColor(COL_BOTON));
             this.btnOpcion2.setBackgroundColor(Color.parseColor(COL_BOTON));
             this.btnOpcion3.setBackgroundColor(Color.parseColor(COL_BOTON));
@@ -130,7 +130,7 @@ public class Quiz1Activity extends AppCompatActivity implements View.OnClickList
         this.btnOpcion1.setTextSize(tamanho);
         this.btnOpcion2.setTextSize(tamanho);
         this.btnOpcion3.setTextSize(tamanho);
-        this.btnOpcion4.setTextSize(tamanho);
+        this.btnOpcion4.setTextSize(tamanho);*/
     }
 
     @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)

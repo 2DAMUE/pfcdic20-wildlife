@@ -10,6 +10,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.example.animalquiz.activities.PrincipalActivity;
+import com.example.animalquiz.login_register.LoginActivity;
 
 import java.util.Timer;
 
@@ -50,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
                 progressBar.setVisibility(View.VISIBLE);
 
                 Intent intent = new Intent(MainActivity
-                        .this, PrincipalActivity.class);
+                        .this, LoginActivity.class);
                 startActivity(intent);
                 finish();
             }

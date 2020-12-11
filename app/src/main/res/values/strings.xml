@@ -83,4 +83,16 @@
     <string name="login_failed">"Login failed"</string>
     <string name="navigation_drawer_open">Open</string>
     <string name="navigation_drawer_close">Close</string>
+    <string name="insta_nico">\@nicmar_1999</string>
+    <string name="correo_nico">martinezcabrera42@gmail.com</string>
+    <string name="email">Email:</string>
+    <string name="password">Contraseña:</string>
+    <string name="btn_registro">Regístrate</string>
+    <string name="btn_acceder">Entrar</string>
+    <string name="tv_registrarse">¿No estás registrado?</string>
+    <string name="msj_no_accede">El email o la contrsaseña no son correctos</string>
+    <string name="no_datos">Debes introducir todos los datos</string>
+    <string name="msj_registrado">Se ha registrado correctamente</string>
+    <string name="msj_no_registrado">No se ha podido registrar</string>
+    <string name="etEmailR">Email:</string>
 </resources>

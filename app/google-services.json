@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "655332528122",
+    "firebase_url": "https://animal-quiz-6c47f.firebaseio.com",
+    "project_id": "animal-quiz-6c47f",
+    "storage_bucket": "animal-quiz-6c47f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655332528122:android:8b2f8809bcac5ff2f15e43",
+        "android_client_info": {
+          "package_name": "com.example.animalquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655332528122-6kdsnldf3iajobfro6qu8arrqbr6ri8q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA2GpLX65a3fBd44egmFepfkTXXGJUnCg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655332528122-6kdsnldf3iajobfro6qu8arrqbr6ri8q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

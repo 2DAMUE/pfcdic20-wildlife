@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.animalquiz">
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -11,8 +12,21 @@
         android:roundIcon="@mipmap/logoapp"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
-        <activity android:name=".activities.DesarrolladoresActivity"
-            android:theme="@style/fullScrean.noActionBar"/>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name=".login_register.RegistroActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/fullScrean.noActionBar" />
+        <activity
+            android:name=".login_register.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/fullScrean.noActionBar" />
+        <activity
+            android:name=".activities.DesarrolladoresActivity"
+            android:theme="@style/fullScrean.noActionBar" />
         <activity
             android:name=".activityQuiz1.Quiz1Activity"
             android:screenOrientation="portrait"
@@ -63,8 +77,8 @@
             android:theme="@style/fullScrean.noActionBar" />
         <activity
             android:name=".activities.DatosMamiferosCompletosActivity"
-            android:theme="@style/fullScrean.noActionBar"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/fullScrean.noActionBar" />
         <activity
             android:name=".activities.MamiferosActivity"
             android:screenOrientation="portrait"

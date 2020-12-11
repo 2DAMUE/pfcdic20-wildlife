@@ -79,7 +79,7 @@
             <TextView
                 android:layout_marginTop="10dp"
                 android:id="@+id/tvClaseP"
-                android:layout_width="310dp"
+                android:layout_width="match_parent"
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:textColor="@android:color/black"
@@ -94,7 +94,7 @@
             <TextView
                 android:layout_marginTop="10dp"
                 android:id="@+id/tvPesoAdultoP"
-                android:layout_width="310dp"
+                android:layout_width="match_parent"
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:background="@drawable/bordes"
@@ -111,7 +111,7 @@
             <TextView
                 android:layout_marginTop="10dp"
                 android:id="@+id/tvLongitudAdultoP"
-                android:layout_width="310dp"
+                android:layout_width="match_parent"
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:background="@drawable/bordes"
@@ -125,7 +125,7 @@
             <TextView
                 android:layout_marginTop="10dp"
                 android:id="@+id/tvPromedioVidaP"
-                android:layout_width="310dp"
+                android:layout_width="match_parent"
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:background="@drawable/bordes"
@@ -140,7 +140,7 @@
             <TextView
                 android:layout_marginTop="10dp"
                 android:id="@+id/tvAlimentacionP"
-                android:layout_width="310dp"
+                android:layout_width="match_parent"
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:background="@drawable/bordes"
@@ -155,7 +155,7 @@
             <TextView
                 android:layout_marginTop="10dp"
                 android:id="@+id/tvPeligrosoP"
-                android:layout_width="310dp"
+                android:layout_width="match_parent"
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:background="@drawable/bordes"
@@ -170,7 +170,7 @@
             <TextView
                 android:layout_marginTop="10dp"
                 android:id="@+id/tvDondeViveP"
-                android:layout_width="310dp"
+                android:layout_width="match_parent"
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 android:background="@drawable/bordes"
@@ -184,7 +184,7 @@
 
             <TextView
                 android:id="@+id/tvContinenteP"
-                android:layout_width="310dp"
+                android:layout_width="match_parent"
                 android:layout_gravity="center"
                 android:layout_height="wrap_content"
                 app:layout_constraintBottom_toBottomOf="parent"
