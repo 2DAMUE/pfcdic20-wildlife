@@ -127,20 +127,21 @@
                 android:background="@drawable/bordes"
                 android:layout_marginTop="10dp">
 
-                <ImageView
+                <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="150dp"
                     android:layout_height="150dp"
+                    android:layout_gravity="center_horizontal"
                     android:layout_marginTop="10dp"
-                    android:background="@drawable/imagen_circulo"
-                    android:src="@drawable/ic_launcher_foreground"
-                    android:layout_gravity="center_horizontal"/>
+                    app:civ_border_width="2dp"
+                    android:src="@drawable/juan_carlos"
+                    app:civ_border_color="#99000000"/>
 
                 <TextView
                     android:layout_width="300dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:textStyle="bold"
-                    android:text="Nicolás Martínez"
+                    android:text="Juan Carlos Molina"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="30sp"/>
@@ -159,14 +160,14 @@
                 <ImageView
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:layout_marginLeft="85dp"
+                    android:layout_marginLeft="105dp"
                     android:layout_marginTop="25dp"
                     android:src="@drawable/iconoinstagram"/>
 
                 <TextView
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
-                    android:text="@string/insta_nico"
+                    android:text="@string/insta_juan_carlos"
                     android:textColor="@android:color/black"
                     android:textAlignment="center"
                     android:textSize="20sp"
@@ -186,7 +187,7 @@
                     android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="-40dp"
-                    android:text="@string/correo_nico"
+                    android:text="@string/correo_juan_carlos"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:layout_gravity="center_horizontal"
@@ -203,12 +204,11 @@
                 android:background="@drawable/bordes"
                 android:layout_marginTop="10dp">
 
-                <ImageView
+                <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_marginTop="10dp"
-                    android:background="@drawable/imagen_circulo"
-                    android:src="@drawable/ic_launcher_foreground"
+                    android:src="@drawable/marco"
                     android:layout_gravity="center_horizontal"/>
 
                 <TextView
@@ -216,7 +216,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:textStyle="bold"
-                    android:text="Nicolás Martínez"
+                    android:text="Marco González"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="30sp"/>
@@ -235,20 +235,20 @@
                 <ImageView
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:layout_marginLeft="85dp"
+                    android:layout_marginLeft="75dp"
                     android:layout_marginTop="25dp"
-                    android:src="@drawable/iconoinstagram"/>
+                    android:src="@drawable/iconoinstagram" />
 
                 <TextView
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
-                    android:text="@string/insta_nico"
+                    android:text="@string/insta_marco"
                     android:textColor="@android:color/black"
                     android:textAlignment="center"
                     android:textSize="20sp"
                     android:layout_marginTop="-32dp"
                     android:textStyle="bold"
-                    android:layout_marginLeft="15dp"
+                    android:layout_marginLeft="35dp"
                     android:layout_gravity="center_horizontal"/>
 
                 <ImageView
@@ -262,7 +262,7 @@
                     android:layout_width="250dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="-40dp"
-                    android:text="@string/correo_nico"
+                    android:text="@string/correo_marco"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:layout_gravity="center_horizontal"

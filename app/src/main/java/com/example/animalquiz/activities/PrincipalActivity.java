@@ -137,6 +137,11 @@ public class PrincipalActivity extends AppCompatActivity implements NavigationVi
                 startActivity(peces);
                 drawerLayout.closeDrawers();
                 break;
+            case R.id.itemMapa:
+                Intent mapa = new Intent(this, MapsPrincipalActivity.class);
+                startActivity(mapa);
+                drawerLayout.closeDrawers();
+                break;
             case R.id.itemSalir:
                 AlertDialog.Builder dialogo1 = new AlertDialog.Builder(this);
                 dialogo1.setTitle("Confirmacion salida");

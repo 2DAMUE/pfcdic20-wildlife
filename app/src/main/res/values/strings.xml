@@ -95,4 +95,13 @@
     <string name="msj_registrado">Se ha registrado correctamente</string>
     <string name="msj_no_registrado">No se ha podido registrar</string>
     <string name="etEmailR">Email:</string>
+    <string name="insta_juan_carlos">\@jchufi</string>
+    <string name="correo_juan_carlos">juancarlospedraza@gmail.com</string>
+    <string name="insta_marco">\@marco.gonzalez72</string>
+    <string name="correo_marco">gl.marco72@gmail.com</string>
+    <string name="title_activity_mapa_mamiferos">Map</string>
+    <string name="title_activity_mapa_aves">Map</string>
+    <string name="title_activity_mapa_anfibios">Map</string>
+    <string name="title_activity_mapa_reptiles">Map</string>
+    <string name="title_activity_mapa_peces">Map</string>
 </resources>

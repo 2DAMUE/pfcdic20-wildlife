@@ -52,6 +52,12 @@
         app:showAsAction="never" />
 
     <item
+        android:id="@+id/itemMapa"
+        android:icon="@drawable/iconopeces"
+        android:title="MAPA ANIMALES"
+        app:showAsAction="never" />
+
+    <item
         android:id="@+id/itemSalir"
         android:icon="@drawable/iconosalir"
         android:title="SALIR"
