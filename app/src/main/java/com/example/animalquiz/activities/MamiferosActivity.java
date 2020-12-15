@@ -102,11 +102,6 @@ public class MamiferosActivity extends AppCompatActivity implements NavigationVi
                 startActivity(desarrolladores);
                 drawerLayout.closeDrawers();
                 break;
-            case R.id.itemMamiferos:
-                Intent mamiferos = new Intent(this, MamiferosActivity.class);
-                startActivity(mamiferos);
-                drawerLayout.closeDrawers();
-                break;
             case R.id.itemAves:
                 Intent aves = new Intent(this, AvesActivity.class);
                 startActivity(aves);
@@ -127,23 +122,9 @@ public class MamiferosActivity extends AppCompatActivity implements NavigationVi
                 startActivity(peces);
                 drawerLayout.closeDrawers();
                 break;
-            case R.id.itemSalir:
-                AlertDialog.Builder dialogo1 = new AlertDialog.Builder(this);
-                dialogo1.setTitle("Confirmacion salida");
-                dialogo1.setMessage("¿Desea salir de la aplicación?");
-                dialogo1.setCancelable(false);
-                dialogo1.setPositiveButton("Cancelar", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialogo1, int id) {
-                        dialogo1.dismiss();
-                    }
-                });
-                dialogo1.setNegativeButton("Confirmar", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialogo1, int id) {
-                        finish();
-                        System.exit(0);
-                    }
-                });
-                dialogo1.show();
+            case R.id.itemMapa:
+                Intent mapa = new Intent(this, MapsPrincipalActivity.class);
+                startActivity(mapa);
                 drawerLayout.closeDrawers();
                 break;
         }

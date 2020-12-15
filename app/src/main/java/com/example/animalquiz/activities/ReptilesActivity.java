@@ -122,33 +122,14 @@ public class ReptilesActivity extends AppCompatActivity implements NavigationVie
                 startActivity(anfibios);
                 drawerLayout.closeDrawers();
                 break;
-            case R.id.itemReptiles:
-                Intent reptiles = new Intent(this, ReptilesActivity.class);
-                startActivity(reptiles);
-                drawerLayout.closeDrawers();
-                break;
             case R.id.itemPeces:
                 Intent peces = new Intent(this, PecesActivity.class);
                 startActivity(peces);
                 drawerLayout.closeDrawers();
                 break;
-            case R.id.itemSalir:
-                AlertDialog.Builder dialogo1 = new AlertDialog.Builder(this);
-                dialogo1.setTitle("Confirmacion salida");
-                dialogo1.setMessage("¿Desea salir de la aplicación?");
-                dialogo1.setCancelable(false);
-                dialogo1.setPositiveButton("Cancelar", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialogo1, int id) {
-                        dialogo1.dismiss();
-                    }
-                });
-                dialogo1.setNegativeButton("Confirmar", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialogo1, int id) {
-                        finish();
-                        onDestroy();
-                    }
-                });
-                dialogo1.show();
+            case R.id.itemMapa:
+                Intent mapa = new Intent(this, MapsPrincipalActivity.class);
+                startActivity(mapa);
                 drawerLayout.closeDrawers();
                 break;
         }

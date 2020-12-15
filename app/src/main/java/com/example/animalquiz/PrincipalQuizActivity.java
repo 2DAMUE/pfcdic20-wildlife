@@ -5,6 +5,7 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -19,7 +20,9 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.example.animalquiz.activities.AnfibiosActivity;
 import com.example.animalquiz.activities.AvesActivity;
+import com.example.animalquiz.activities.DesarrolladoresActivity;
 import com.example.animalquiz.activities.MamiferosActivity;
+import com.example.animalquiz.activities.MapsPrincipalActivity;
 import com.example.animalquiz.activities.PecesActivity;
 import com.example.animalquiz.activities.PrincipalActivity;
 import com.example.animalquiz.activities.ReptilesActivity;
@@ -55,17 +58,13 @@ public class PrincipalQuizActivity extends AppCompatActivity implements Navigati
         navigationView.setNavigationItemSelectedListener(this);
     }
 
-    public void entrarPrincipal(View v){
-        Intent i = new Intent(PrincipalQuizActivity.this, PrincipalActivity.class);
-        startActivity(i);
-    }
-
     public void entrarQuiz1(View v){
         Intent i = new Intent(this, Quiz1Activity.class);
         startActivity(i);
     }
 
-    public void entrarQuiz2(View view) {
+    //Botones que acceden al Quiz 2 y al Quiz 3, los cuales están en mantenimiento
+    /*public void entrarQuiz2(View view) {
         Intent i = new Intent(this, Quiz2Activity.class);
         startActivity(i);
     }
@@ -73,72 +72,66 @@ public class PrincipalQuizActivity extends AppCompatActivity implements Navigati
     public void entrarQuiz3 (View v){
         Intent i = new Intent(this, Quiz3Activity.class);
         startActivity(i);
-    }
-
-    @Override
-    public void onBackPressed() {
-
-        if (drawerLayout.isDrawerOpen(GravityCompat.START)){
-            drawerLayout.closeDrawer(GravityCompat.START);
-        }else {
-            super.onBackPressed();
-        }
-    }
+    }*/
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
 
         switch (menuItem.getItemId()){
-            case R.id.itemHome:
-                Intent i = new Intent(this, PrincipalActivity.class);
+            case R.id.itemQuiz:
+                Intent i = new Intent(this, PrincipalQuizActivity.class);
                 startActivity(i);
+                drawerLayout.closeDrawers();
+                break;
+            case R.id.itemHome:
+                Intent home = new Intent(this, PrincipalActivity.class);
+                startActivity(home);
+                drawerLayout.closeDrawers();
                 break;
             case R.id.itemDesarrolladores:
-                Toast.makeText(this, "Desarrolladores", Toast.LENGTH_SHORT).show();
-                break;
-            case R.id.itemEditarPerfil:
-                Toast.makeText(this, "Editar perfil", Toast.LENGTH_SHORT).show();
+                Intent desarrolladores = new Intent(this, DesarrolladoresActivity.class);
+                startActivity(desarrolladores);
+                drawerLayout.closeDrawers();
                 break;
             case R.id.itemMamiferos:
                 Intent mamiferos = new Intent(this, MamiferosActivity.class);
                 startActivity(mamiferos);
+                drawerLayout.closeDrawers();
                 break;
             case R.id.itemAves:
                 Intent aves = new Intent(this, AvesActivity.class);
                 startActivity(aves);
+                drawerLayout.closeDrawers();
                 break;
             case R.id.itemAnfibios:
                 Intent anfibios = new Intent(this, AnfibiosActivity.class);
                 startActivity(anfibios);
+                drawerLayout.closeDrawers();
                 break;
             case R.id.itemReptiles:
                 Intent reptiles = new Intent(this, ReptilesActivity.class);
                 startActivity(reptiles);
+                drawerLayout.closeDrawers();
                 break;
             case R.id.itemPeces:
                 Intent peces = new Intent(this, PecesActivity.class);
                 startActivity(peces);
+                drawerLayout.closeDrawers();
                 break;
-            case R.id.itemSalir:
-                AlertDialog.Builder dialogo1 = new AlertDialog.Builder(this);
-                dialogo1.setTitle("Confirmacion salida");
-                dialogo1.setMessage("¿Desea salir de la aplicación?");
-                dialogo1.setCancelable(false);
-                dialogo1.setPositiveButton("Cancelar", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialogo1, int id) {
-                        dialogo1.dismiss();
-                    }
-                });
-                dialogo1.setNegativeButton("Confirmar", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialogo1, int id) {
-                        finish();
-                        onDestroy();
-                    }
-                });
-                dialogo1.show();
+            case R.id.itemMapa:
+                Intent mapa = new Intent(this, MapsPrincipalActivity.class);
+                startActivity(mapa);
+                drawerLayout.closeDrawers();
                 break;
         }
 
         return true;
+    }
+
+    @Override public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if (keyCode == KeyEvent.KEYCODE_BACK) {
+            return true;
+        }
+        return super.onKeyDown(keyCode, event);
     }
 }

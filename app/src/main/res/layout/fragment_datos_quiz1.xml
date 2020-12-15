@@ -5,11 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragments.DatosQuiz2Fragment"
-    android:background="#E9C305">
+    android:background="#FFC90E">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:padding="10dp">
 
         <TextView
             android:id="@+id/textView13"
@@ -30,7 +31,7 @@
             android:id="@+id/imageView5"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="@drawable/iconodatos"
+            android:src="@drawable/iconodatos"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
@@ -115,17 +116,47 @@
 
         </LinearLayout>
 
-        <Button
-            android:id="@+id/btnContinuarF"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Aceptar"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.976" />
+            app:layout_constraintVertical_bias="0.963"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnContinuarF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aceptar"
+                android:background="@drawable/state_button"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.263"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.976"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/btn_ver_resultados"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ver resultados"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/state_button"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.708"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.976"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
 
         <ProgressBar
             android:id="@+id/pbCarga1"
@@ -136,7 +167,7 @@
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.869" />
+            app:layout_constraintVertical_bias="0.849" />
 
         <TextView
             android:id="@+id/tvFraseQuiz1"
@@ -153,7 +184,7 @@
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.92" />
+            app:layout_constraintVertical_bias="0.954" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

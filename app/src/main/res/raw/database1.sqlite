@@ -31,7 +31,7 @@ INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorr
 VALUES("¿Qué animal se alimenta de ratas y ratones?", "Boa Constrictor", "Galápago leproso", "Diablo espinoso", "Mamba negra", 1);
 
 INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `tipo`)
-VALUES("La mamba negra habita en", "Estepas o sabanas", "En montañas", "En montañas, estepas y sabanas", "Zonas tropicales", 1);
+VALUES("La mamba negra habita en...", "Estepas o sabanas", "En montañas", "En montañas, estepas y sabanas", "Zonas tropicales", 1);
 
 INSERT INTO `preguntas` (`pregunta`, `rtaCorrecta`, `rtaIncorrecta1`, `rtaIncorrecta2`, `rtaIncorrecta3`, `tipo`)
 VALUES("¿En qué continente se encuentra el Cardenal?", "América del norte", "Oceanía", "Asia", "Europa", 1);

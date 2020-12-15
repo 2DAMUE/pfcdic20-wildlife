@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:id="@+id/itemHome"
+        android:icon="@drawable/iconoprincipal"
+        android:title="HOME"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/itemQuiz"
+        android:icon="@drawable/iconoquiz"
+        android:title="¡PONTE A PRUEBA!"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/itemDesarrolladores"
+        android:icon="@drawable/iconodesarrolladores"
+        android:title="DESARROLLADORES"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/itemMamiferos"
+        android:icon="@drawable/iconomamiferos"
+        android:title="MAMIFEROS"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/itemAves"
+        android:icon="@drawable/iconoaves"
+        android:title="AVES"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/itemAnfibios"
+        android:icon="@drawable/iconoanfibios"
+        android:title="ANFIBIOS"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/itemReptiles"
+        android:icon="@drawable/iconoreptiles"
+        android:title="REPTILES"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/itemPeces"
+        android:icon="@drawable/iconopeces"
+        android:title="PECES"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/itemMapa"
+        android:icon="@drawable/iconopeces"
+        android:title="MAPA ANIMALES"
+        app:showAsAction="never" />
+
+</menu>

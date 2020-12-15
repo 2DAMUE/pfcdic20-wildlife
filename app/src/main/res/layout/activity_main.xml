@@ -10,78 +10,51 @@
 
     //#FFE400
 
-    <LinearLayout
-        android:id="@+id/llm1"
-        android:layout_width="match_parent"
-        android:layout_height="120dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        android:background="@drawable/bordes_logo"
-        android:padding="10dp">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="@string/tv_nombre_app"
-            android:textAlignment="center"
-            android:textSize="30sp"
-            android:gravity="center"
-            android:textColor="@android:color/black"/>
-
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_gravity="center"
-            android:layout_weight="1"
-            android:adjustViewBounds="true"
-            android:background="@drawable/mamiferos"
-            android:foregroundGravity="right" />
-
-    </LinearLayout>
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="240dp"
-        android:layout_height="240dp"
-        android:background="@drawable/iconopequenoleon"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/llm1"
-        app:layout_constraintVertical_bias="0.254" />
-
-    <ProgressBar
-        android:id="@+id/progressBar"
-        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+    <TextView
+        android:id="@+id/tv_nomApp"
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:indeterminate="true"
-        android:indeterminateTint="@android:color/holo_orange_dark"
+        android:layout_weight="1"
+        android:fontFamily="@font/arbutus_slab"
+        android:gravity="center"
+        android:text="@string/tv_nombre_app"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        app:layout_constraintVertical_bias="0.135" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.111" />
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:background="@drawable/iconopequenoleon"
+        app:layout_constraintBottom_toTopOf="@+id/tvSlogan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nomApp"
+        app:layout_constraintVertical_bias="0.457" />
 
     <TextView
-        android:id="@+id/tvCarga"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Loading..."
+        android:id="@+id/tvSlogan"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:text="@string/slogan"
+        android:textAlignment="center"
         android:textColor="@android:color/black"
-        android:textSize="30sp"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/progressBar"
-        app:layout_constraintVertical_bias="0.217" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.814" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

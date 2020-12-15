@@ -16,6 +16,7 @@ import androidx.fragment.app.Fragment;
 
 import com.example.animalquiz.PrincipalQuizActivity;
 import com.example.animalquiz.R;
+import com.example.animalquiz.activityQuiz1.RespuestasQ1Activity;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -29,6 +30,7 @@ public class DatosQuiz1Fragment extends Fragment {
     private TextView tvPuntuacion, tvCorrectasF, tvIncorrectasF, tvPreguntasTotales, tvFraseQ1;
     private Button btnContinuarF;
     private ProgressBar pbCarga;
+    private Button resultados;
 
     public DatosQuiz1Fragment() {
         // Required empty public constructor
@@ -48,6 +50,8 @@ public class DatosQuiz1Fragment extends Fragment {
         tvPreguntasTotales = view.findViewById(R.id.tvPreguntasTotales1);
         pbCarga = view.findViewById(R.id.pbCarga1);
 
+        resultados = view.findViewById(R.id.btn_ver_resultados);
+
         numCorrectas = getArguments().getInt("numCorrectasQ1");
         numIncorrectas = getArguments().getInt("numIncorrectasQ1");
         puntuacion = getArguments().getInt("puntuacionQ1");
@@ -63,6 +67,14 @@ public class DatosQuiz1Fragment extends Fragment {
         tvPreguntasTotales.setText("Preguntas realizadas: " + numPreguntas);
 
         seleccionarMensaje(puntuacion);
+
+        resultados.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), RespuestasQ1Activity.class);
+                startActivity(intent);
+            }
+        });
 
         btnContinuarF.setOnClickListener(new View.OnClickListener() {
             @Override

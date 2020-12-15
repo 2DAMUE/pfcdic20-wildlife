@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.animalquiz">
-
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -17,7 +16,9 @@
         android:roundIcon="@mipmap/logoapp"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
-
+        <activity android:name=".activityQuiz1.RespuestasQ1Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/fullScrean.noActionBar" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -31,13 +32,13 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".ActivityMapaPeces"
-            android:label="@string/title_activity_mapa_peces"></activity>
+            android:name=".mapasActivity.ActivityMapaPeces"
+            android:label="@string/title_activity_mapa_peces" />
         <activity
-            android:name=".ActivityMapaReptiles"
+            android:name=".mapasActivity.ActivityMapaReptiles"
             android:label="@string/title_activity_mapa_reptiles" />
         <activity
-            android:name=".ActivityMapaAnfibios"
+            android:name=".mapasActivity.ActivityMapaAnfibios"
             android:label="@string/title_activity_mapa_anfibios" />
         <activity
             android:name=".mapasActivity.ActivityMapaAves"

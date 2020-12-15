@@ -80,7 +80,7 @@ public class Quiz1Activity extends AppCompatActivity implements View.OnClickList
                 String sonido = preguntas.getString(preguntas.getColumnIndex("sonido"));
                 String rtaCorrecta = preguntas.getString(preguntas.getColumnIndex("rtaCorrecta"));
                 int tipo = preguntas.getInt(preguntas.getColumnIndex("tipo"));
-                this.tvNumPregunta.setText("Pregunta: " + numPreguntaQ1 + " de 5");
+                this.tvNumPregunta.setText("Pregunta: " + numPreguntaQ1 + " de 10");
 
                 ArrayList<String> rtaIncorrectas = new ArrayList();
                 rtaIncorrectas.add(preguntas.getString(preguntas.getColumnIndex("rtaIncorrecta1")));
@@ -147,7 +147,7 @@ public class Quiz1Activity extends AppCompatActivity implements View.OnClickList
             if (iterator.hasNext()) {
                 Toast.makeText(this, "¡CORRECTO!", Toast.LENGTH_SHORT).show();
                 this.setPregunta((Pregunta) this.lisPreguntas.pop());
-                this.tvNumPregunta.setText("Pregunta: " + numPreguntaQ1 + " de 5");
+                this.tvNumPregunta.setText("Pregunta: " + numPreguntaQ1 + " de 10");
                 fl1.setVisibility(View.GONE);
             }else {
 
@@ -186,7 +186,7 @@ public class Quiz1Activity extends AppCompatActivity implements View.OnClickList
             if (iterator.hasNext()) {
                 Toast.makeText(this, "¡INCORRECTO!", Toast.LENGTH_SHORT).show();
                 this.setPregunta((Pregunta) this.lisPreguntas.pop());
-                this.tvNumPregunta.setText("Pregunta: " + numPreguntaQ1 + " de 5");
+                this.tvNumPregunta.setText("Pregunta: " + numPreguntaQ1 + " de 10");
                 fl1.setVisibility(View.GONE);
 
             }else {

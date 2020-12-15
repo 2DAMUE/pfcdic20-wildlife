@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarMapaAnimales"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#C09C00"/>
+
+    <ImageView
+        android:id="@+id/icono"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/mapamundo"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btnMapa"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/state_button"
+            android:text="Mamíferos" />
+
+        <Button
+            android:id="@+id/buttonMapaAves"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/state_button"
+            android:text="Aves" />
+
+        <Button
+            android:id="@+id/btnMapaAnfibios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:background="@drawable/state_button"
+            android:text="Anfíbios"/>
+
+        <Button
+            android:id="@+id/btnReptiles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:background="@drawable/state_button"
+            android:text="Reptiles"/>
+
+        <Button
+            android:id="@+id/btnPeces"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:background="@drawable/state_button"
+            android:text="Peces"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

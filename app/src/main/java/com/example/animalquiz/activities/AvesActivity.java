@@ -110,11 +110,6 @@ public class AvesActivity extends AppCompatActivity implements NavigationView.On
                 startActivity(mamiferos);
                 drawerLayout.closeDrawers();
                 break;
-            case R.id.itemAves:
-                Intent aves = new Intent(this, AvesActivity.class);
-                startActivity(aves);
-                drawerLayout.closeDrawers();
-                break;
             case R.id.itemAnfibios:
                 Intent anfibios = new Intent(this, AnfibiosActivity.class);
                 startActivity(anfibios);
@@ -130,23 +125,9 @@ public class AvesActivity extends AppCompatActivity implements NavigationView.On
                 startActivity(peces);
                 drawerLayout.closeDrawers();
                 break;
-            case R.id.itemSalir:
-                AlertDialog.Builder dialogo1 = new AlertDialog.Builder(this);
-                dialogo1.setTitle("Confirmacion salida");
-                dialogo1.setMessage("¿Desea salir de la aplicación?");
-                dialogo1.setCancelable(false);
-                dialogo1.setPositiveButton("Cancelar", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialogo1, int id) {
-                        dialogo1.dismiss();
-                    }
-                });
-                dialogo1.setNegativeButton("Confirmar", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialogo1, int id) {
-                        finish();
-                        onDestroy();
-                    }
-                });
-                dialogo1.show();
+            case R.id.itemMapa:
+                Intent mapa = new Intent(this, MapsPrincipalActivity.class);
+                startActivity(mapa);
                 drawerLayout.closeDrawers();
                 break;
         }

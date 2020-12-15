@@ -5,11 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.example.animalquiz.activities.PrincipalActivity;
 import com.example.animalquiz.login_register.LoginActivity;
 
 import java.util.Timer;
@@ -18,25 +19,28 @@ public class MainActivity extends AppCompatActivity {
 
     TextView tv_slogan;
     ProgressBar progressBar;
-    TextView tvCarga;
+    TextView tvNomApp;
     Timer timer;
+
+    private ImageView imgLogo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        /*Animation rotate = AnimationUtils.loadAnimation(this, R.anim.pulse_animation);
-        tv_slogan.startAnimation(rotate);*/
+        tv_slogan = findViewById(R.id.tvSlogan);
+        tvNomApp = findViewById(R.id.tv_nomApp);
 
-        progressBar = findViewById(R.id.progressBar);
-        tvCarga = findViewById(R.id.tvCarga);
+        imgLogo = findViewById(R.id.img_logo);
 
-        timer = new Timer();
+        Animation myanim = AnimationUtils.loadAnimation(this, R.anim.zoom_mas_menos);
+        Animation myanim2 = AnimationUtils.loadAnimation(this, R.anim.zoom_menos_mas);
+        Animation myanim3 = AnimationUtils.loadAnimation(this, R.anim.zoom_menos_mas2);
 
-        progressBar.setVisibility(View.INVISIBLE);
-        tvCarga.setVisibility(View.INVISIBLE);
-
+        imgLogo.startAnimation(myanim);
+        tv_slogan.startAnimation(myanim2);
+        tvNomApp.startAnimation(myanim3);
         openApp(true);
     }
 
@@ -47,14 +51,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
 
-                tvCarga.setVisibility(View.VISIBLE);
-                progressBar.setVisibility(View.VISIBLE);
-
                 Intent intent = new Intent(MainActivity
                         .this, LoginActivity.class);
                 startActivity(intent);
                 finish();
             }
-        }, 2000);
+        }, 4000);
     }
 }
